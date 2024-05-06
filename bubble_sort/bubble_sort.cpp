@@ -36,7 +36,7 @@ int main() {
 
     const int tests = 20; 
     const int num_algorithms = 2; 
-    const int num_elements = 10000; 
+    const int num_elements = 50000; 
 
     // Matriz para armazenar os tempos
     long long times[tests][num_algorithms] = {0}; 
@@ -71,13 +71,14 @@ int main() {
         // Libere a memória alocada para as listas
         removeList(&head1);
         removeList(&head2);
-    }
-
-    // Exiba os tempos armazenados na matriz
-    cout << "Tempos gastos com Bubble Sort e Bubble Sort otimizado em cada iteracao:" << endl;
-    for (int i = 0; i < tests; ++i) {
         cout << "Iteracao " << i + 1 << ": " << times[i][0] << " ns - " << times[i][1] << " ns" << endl;
     }
+
+    // // Exiba os tempos armazenados na matriz
+    // cout << "Tempos gastos com Bubble Sort e Bubble Sort otimizado em cada iteracao:" << endl;
+    // for (int i = 0; i < tests; ++i) {
+    //     cout << "Iteracao " << i + 1 << ": " << times[i][0] << " ns - " << times[i][1] << " ns" << endl;
+    // }
 
     return 0;
 }

@@ -34,9 +34,9 @@ void optimized_bubbleSort(Node**);
 
 int main() {
 
-    const int tests = 20; 
+    const int tests = 100; 
     const int num_algorithms = 2; 
-    const int num_elements = 50000; 
+    const int num_elements = 10000; 
 
     // Matriz para armazenar os tempos
     long long times[tests][num_algorithms] = {0}; 
@@ -73,12 +73,6 @@ int main() {
         removeList(&head2);
         cout << "Iteracao " << i + 1 << ": " << times[i][0] << " ns - " << times[i][1] << " ns" << endl;
     }
-
-    // // Exiba os tempos armazenados na matriz
-    // cout << "Tempos gastos com Bubble Sort e Bubble Sort otimizado em cada iteracao:" << endl;
-    // for (int i = 0; i < tests; ++i) {
-    //     cout << "Iteracao " << i + 1 << ": " << times[i][0] << " ns - " << times[i][1] << " ns" << endl;
-    // }
 
     return 0;
 }

@@ -34,7 +34,7 @@ void optimizedSelectionSort(Node**);
 int main()
 {   
     // Número de testes
-    const int tests = 20; 
+    const int tests = 100; 
     // Número de algoritmos a serem testados
     const int num_algorithms = 2; 
     // Tamanho de cada lista

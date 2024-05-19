@@ -2,7 +2,7 @@
 #include <chrono>
 #include <iomanip>
 
-#include "list.h"
+#include "list/list.h"
 #include "sortingAlgorithms.h"
 
 using namespace std::chrono;

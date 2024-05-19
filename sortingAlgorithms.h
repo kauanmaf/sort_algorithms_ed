@@ -1,6 +1,6 @@
 #pragma once
 
-#include "list.h"
+#include "list/list.h"
 
 
 // Protótipos das funções de algoritmos

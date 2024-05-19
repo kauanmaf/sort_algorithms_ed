@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "sortingAlgorithms.h"
-#include "list.h"
+#include "../sortingAlgorithms.h"
+#include "../list/list.h"
 
 using namespace std;
 

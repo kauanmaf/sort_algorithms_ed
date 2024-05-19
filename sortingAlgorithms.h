@@ -1,6 +1,9 @@
 #pragma once
+
 #include "list.h"
-// Protótipos
+
+
+// Protótipos das funções de algoritmos
 void bubbleSort(Node**);
 void optimized_bubbleSort(Node**);
 

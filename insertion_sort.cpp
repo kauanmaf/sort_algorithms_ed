@@ -1,22 +1,24 @@
 #include <iostream>
+
 #include "sortingAlgorithms.h"
 #include "list.h"
+
 using namespace std;
 
 
 // Função do insertionSort
 void insertionSort(Node** head)
 {
-    // Checamos se a lista nao é vazia
+    // Checamos se a lista não é vazia
     if (*head == nullptr)
     {
         cout << "Lista vazia" << endl;
         return;
     }
     
-    // Criamos nosso insertvalue, o númeor a ser trocado
+    // Criamos nosso insertvalue, o número a ser trocado
     int iInsertValue = 0;
-    // Iniciamos os dois ponteiros que iremos precisamos
+    // Iniciamos os dois ponteiros que iremos precisar
     // O outerloop andará um para frente por iteração
     Node* ptrOuterLoop = (*head) -> ptrNext;
     // Já o innerloop andará para trás do outer
@@ -30,11 +32,11 @@ void insertionSort(Node** head)
         // Setamos o inner como o prev do outer
         ptrInnerLoop = ptrOuterLoop -> ptrPrev;
         
-        // Iremos andar para trás, a não ser que chegamos no final da lista ou que o payload do elemento que estamso for menor que o insertvalue
+        // Iremos andar para trás, a não ser que cheguemos no final da lista ou que o payload do elemento que estamos seja menor que o insertvalue
         while (ptrInnerLoop != nullptr && ptrInnerLoop -> iPayload > iInsertValue)
         {
-            // Enquanto essas duas condições não forem satisfeitas 
-            // Setamos o payload do elemento acima do innerloop como o paylaod do innerloop
+            // Enquanto essas duas condições não forem satisfeitas,
+            // setamos o payload do elemento acima do innerloop como o payload do innerloop
             ptrInnerLoop -> ptrNext -> iPayload = ptrInnerLoop -> iPayload;
             // Andamos para trás com o innerloop
             ptrInnerLoop = ptrInnerLoop -> ptrPrev;
@@ -43,7 +45,7 @@ void insertionSort(Node** head)
         // Se o innerloop for nulo, significa que chegamos ao final da lista
         if (ptrInnerLoop == nullptr)
         {
-            // Então setmaos o primeiro elemento como o insertvalue
+            // Então setamos o primeiro elemento como o insertvalue
             (*head) -> iPayload = iInsertValue;
         }
 

@@ -1,8 +1,10 @@
 #include <iostream>
+
 #include "sortingAlgorithms.h"
 #include "list.h"
 
 using namespace std;
+
 
 // Função do selection sort não otimizado
 void selectionSort(Node** head)

@@ -1,5 +1,7 @@
 #include <iostream>
+
 #include "list.h"
+
 using namespace std;
 
 
@@ -104,7 +106,7 @@ void swapElements(Node* ptrFirst, Node* ptrSecond)
         return;
     } 
     
-    // Trocando dos payloads
+    // Trocando os payloads
     int iTemp = ptrFirst -> iPayload;
     ptrFirst -> iPayload = ptrSecond -> iPayload;
     ptrSecond -> iPayload = iTemp;

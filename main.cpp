@@ -2,14 +2,10 @@
 #include <chrono>
 #include <iomanip>
 
-
 #include "list.h"
 #include "sortingAlgorithms.h"
 
-using std::chrono::high_resolution_clock;
-using std::chrono::duration_cast;
-using std::chrono::nanoseconds;
-
+using namespace std::chrono;
 using namespace std;
 
 
@@ -25,7 +21,7 @@ int main()
     // Matriz para armazenar os tempos
     long long times[tests][num_algorithms] = {0}; 
 
-    // Inicializando as duas listas iguais
+    // Inicializando todas as listas iguais
     Node* head1 = nullptr;
     Node* head2 = nullptr;
     Node* head3 = nullptr;
@@ -35,7 +31,7 @@ int main()
     // Para cada teste...
     for (int i = 0; i < tests; ++i)
     {
-        // Gera uma lista com os mesmos elementos em head1 e head2
+        // Gera listas com os mesmos elementos
         for (int x = 0; x <= num_elements; x++)
         {
             int num = rand();
@@ -46,7 +42,7 @@ int main()
             insertEnd(&head5, num);
         }
 
-        // Mede o tempo de execução do select sort não otimizado
+        // Mede o tempo de execução de cada algoritmo
         auto timeStart1 = high_resolution_clock::now();
         bubbleSort(&head1);
         auto timeStop1 = high_resolution_clock::now();
@@ -77,7 +73,6 @@ int main()
         auto timeDuration5 = duration_cast<nanoseconds>(timeStop5 - timeStart5).count();
         times[i][4] = timeDuration5;
 
-
         // Limpa as listas
         removeList(&head1);
         removeList(&head2);
@@ -85,15 +80,30 @@ int main()
         removeList(&head4);
         removeList(&head5);
 
+        // Exporta os tempos formatados
         cout << "Iteração " << i + 1 << ":" << endl;
-        for (int algo = 0; algo < num_algorithms; ++algo) {
-            cout << "  Algoritmo " << algo + 1 << ": " << setw(10) << times[i][algo] << " ns" << endl;
+        for (int algo = 0; algo < num_algorithms; ++algo)
+        {
+            switch (algo)
+            {
+                case 0:
+                cout << "Bubble sort: " << setw(23) << times[i][algo] << " ns" << endl;
+                break;
+                case 1:
+                cout << "Optimized bubble sort: " << setw(13) << times[i][algo] << " ns" << endl;
+                break;
+                case 2:
+                cout << "Selection sort: " << setw(20) << times[i][algo] << " ns" << endl;
+                break;
+                case 3:
+                cout << "Optimized selection sort: " << setw(10) << times[i][algo] << " ns" << endl;
+                break;
+                case 4:
+                cout << "Insertion sort: " << setw(20) << times[i][algo] << " ns" << endl;
+                break;
+            }
         }
         cout << endl;
-
     }
-
-
-    
     return 0;
 }

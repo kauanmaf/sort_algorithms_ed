@@ -1,13 +1,17 @@
 #include <iostream>
+
 #include "sortingAlgorithms.h"
 #include "list.h"
+
 using namespace std;
 
 
-void bubbleSort(Node** head){
-    // Checando se o ponteiro que aponta para o head é nula
-    if (head == nullptr){
-        cout << "Não é possível realizar o bubble sort. Ponteiro Nulo" << endl;
+void bubbleSort(Node** head)
+{
+    // Checando se o ponteiro que aponta para o head é nulo
+    if (head == nullptr)
+    {
+        cout << "Não é possível realizar o bubble sort. Ponteiro nulo" << endl;
         return;
     }
 
@@ -15,21 +19,18 @@ void bubbleSort(Node** head){
     Node* current = (*head);
     Node* iterations = (*head);
 
-    // enquanto não andamos pela totalidade do pontos (precisamos fazer n-1 vezes)
-    while (iterations-> ptrNext != nullptr){
-        // enquanto o próximo do atual for diferente do ultimo que setamos
+    // Enquanto não andamos pela totalidade do pontos (precisamos fazer n-1 vezes)
+    while (iterations-> ptrNext != nullptr)
+    {
         current = (*head);
 
+        // Enquanto o próximo do atual for diferente do último que setamos
         while (current->ptrNext != nullptr) 
         {
-            // cout << current -> iPayload << endl;
             // Se o payload de current for menor que o payload do próximo
             if (current->iPayload > current->ptrNext->iPayload) 
             {
-                // Checamos se é o primeiro elemento para atualizar o head também
-                if (current -> ptrPrev == nullptr) (*head) = current -> ptrNext;
-
-                // Realizamos o swap  
+                // Realizamos o swap
                 swapElements(current, current->ptrNext);
 
             }
@@ -37,18 +38,19 @@ void bubbleSort(Node** head){
             current = current->ptrNext;
             
         }
-        // Setamos o último que iteramos como current, pois sabemos que ele é o maior daquela iteração
-        // Assim precisamos iterar apenas até ele
+        // Avança o iterations
         iterations = iterations -> ptrNext;
 
     } 
     return;
 };
 
-void optimized_bubbleSort(Node** head){
-    // Checando se o ponteiro que aponta par ao head é nula
-    if (head == nullptr){
-        cout << "Não é possível realizar o bubble sort. Ponteiro Nulo" << endl;
+void optimized_bubbleSort(Node** head)
+{
+    // Checando se o ponteiro que aponta para o head é nulo
+    if (head == nullptr)
+    {
+        cout << "Não é possível realizar o bubble sort. Ponteiro nulo" << endl;
         return;
     }
     
@@ -65,15 +67,12 @@ void optimized_bubbleSort(Node** head){
         // Setamos o atual como o primeiro
         current = (*head);
 
-        // enquanto o próximo do atual for diferente do ultimo que setamos
+        // Enquanto o próximo do atual for diferente do último que setamos
         while (current->ptrNext != last) 
         {
             // Se o payload de current for menor que o payload do próximo
             if (current->iPayload > current->ptrNext->iPayload) 
             {
-                // Checamos se é o primeiro elemento para atualizar o head também
-                if (current -> ptrPrev == nullptr) (*head) = current -> ptrNext;
-
                 // Realizamos o swap  
                 swapElements(current, current->ptrNext);
 

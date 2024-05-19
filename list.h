@@ -1,4 +1,6 @@
 #pragma once
+
+
 // Definição da estrutura Node
 struct Node {
     int iPayload;
@@ -6,7 +8,7 @@ struct Node {
     Node* ptrPrev;
 };
 
-// Protótipos das funções
+// Protótipos das funções de lista duplamente encadeada
 Node* createNode(int);
 void insertFront(Node**, int);
 void insertEnd(Node**, int);

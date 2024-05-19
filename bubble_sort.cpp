@@ -5,7 +5,7 @@ using namespace std;
 
 
 void bubbleSort(Node** head){
-    // Checando se o ponteiro que aponta par ao head é nula
+    // Checando se o ponteiro que aponta para o head é nula
     if (head == nullptr){
         cout << "Não é possível realizar o bubble sort. Ponteiro Nulo" << endl;
         return;
@@ -31,9 +31,6 @@ void bubbleSort(Node** head){
 
                 // Realizamos o swap  
                 swapElements(current, current->ptrNext);
-
-                // Setamos o current como o anterior para trocar os ponteiros.
-                current = current -> ptrPrev;
 
             }
             // Setamos o current como o próximo
@@ -80,19 +77,17 @@ void optimized_bubbleSort(Node** head){
                 // Realizamos o swap  
                 swapElements(current, current->ptrNext);
 
-                // Setamos o current como o anterior para trocar os ponteiros.
-                current = current -> ptrPrev;
                 // Setamos swap como true
                 swapped = true;
             }
-            // Setamoso  current como o próximo
+            // Setamos o current como o próximo
             current = current->ptrNext;
         }
         
         // Setamos o último que iteramos como current, pois sabemos que ele é o maior daquela iteração
         // Assim precisamos iterar apenas até ele
         last = current;
-        
+
     } while (swapped); // Realizamos isso enquanto o swapped for true
     return;
 };

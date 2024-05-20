@@ -11,3 +11,5 @@ void selectionSort(Node**);
 void optimizedSelectionSort(Node**);
 
 void insertionSort(Node**);
+
+void countingSort(Node**);

@@ -14,7 +14,7 @@ int main()
     // Número de testes
     const int tests = 100; 
     // Número de algoritmos a serem testados
-    const int num_algorithms = 5; 
+    const int num_algorithms = 6; 
     // Tamanho de cada lista
     const int num_elements = 10000; 
 
@@ -27,6 +27,7 @@ int main()
     Node* head3 = nullptr;
     Node* head4 = nullptr;
     Node* head5 = nullptr;
+    Node* head6 = nullptr;
 
     // Para cada teste...
     for (int i = 0; i < tests; ++i)
@@ -40,6 +41,7 @@ int main()
             insertEnd(&head3, num);
             insertEnd(&head4, num);
             insertEnd(&head5, num);
+            insertEnd(&head6, num);
         }
 
         // Mede o tempo de execução de cada algoritmo
@@ -73,12 +75,19 @@ int main()
         auto timeDuration5 = duration_cast<nanoseconds>(timeStop5 - timeStart5).count();
         times[i][4] = timeDuration5;
 
+        auto timeStart6 = high_resolution_clock::now();
+        insertionSort(&head6);
+        auto timeStop6 = high_resolution_clock::now();
+        auto timeDuration6 = duration_cast<nanoseconds>(timeStop6 - timeStart6).count();
+        times[i][5] = timeDuration6;
+
         // Limpa as listas
         removeList(&head1);
         removeList(&head2);
         removeList(&head3);
         removeList(&head4);
         removeList(&head5);
+        removeList(&head6);
 
         // Exporta os tempos formatados
         cout << "Iteração " << i + 1 << ":" << endl;
@@ -100,6 +109,9 @@ int main()
                 break;
                 case 4:
                 cout << "Insertion sort: " << setw(20) << times[i][algo] << " ns" << endl;
+                break;
+                case 5:
+                cout << "Counting sort: " << setw(21) << times[i][algo] << " ns" << endl;
                 break;
             }
         }

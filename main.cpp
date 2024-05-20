@@ -34,7 +34,7 @@ int main()
         // Gera listas com os mesmos elementos
         for (int x = 0; x <= num_elements; x++)
         {
-            int num = rand();
+            int num = rand() % 100 + 1;
             insertEnd(&head1, num);
             insertEnd(&head2, num);
             insertEnd(&head3, num);

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Template <typename T>
+template <typename T>
 void countingSort(Node<T>** head)
 {
     // Checando se o ponteiro que aponta para o head é nulo

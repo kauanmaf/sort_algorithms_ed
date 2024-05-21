@@ -4,7 +4,7 @@
 // Definição da estrutura Node
 template <typename T>
 struct Node {
-    T iPayload;
+    T payload;
     Node* ptrNext;
     Node* ptrPrev;
 
@@ -25,3 +25,5 @@ void removeList(Node<T>**);
 
 template <typename T>
 void swapElements(Node<T>*, Node<T>*);
+
+#include "double_list.tpp"

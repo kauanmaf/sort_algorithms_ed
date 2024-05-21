@@ -4,12 +4,22 @@
 
 
 // Protótipos das funções de algoritmos
-void bubbleSort(Node**);
-void optimized_bubbleSort(Node**);
+template <typename T>
+void bubbleSort(Node<T>**);
+template <typename T>
+void optimized_bubbleSort(Node<T>**);
+template <typename T>
+void selectionSort(Node<T>**);
+template <typename T>
+void optimizedSelectionSort(Node<T>**);
 
-void selectionSort(Node**);
-void optimizedSelectionSort(Node**);
+template <typename T>
+void insertionSort(Node<T>**);
 
-void insertionSort(Node**);
+template <typename T>
+void countingSort(Node<T>**);
 
-void countingSort(Node**);
+#include "selection_sort/selection_sort.tpp"
+#include "bubble_sort/bubble_sort.tpp"
+#include "insertion_sort/insertion_sort.tpp"
+#include "counting_sort/countingSort.tpp"

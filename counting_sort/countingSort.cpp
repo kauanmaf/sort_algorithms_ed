@@ -5,8 +5,8 @@
 
 using namespace std;
 
-
-void countingSort(Node** head)
+Template <typename T>
+void countingSort(Node<T>** head)
 {
     // Checando se o ponteiro que aponta para o head é nulo
     if (head == nullptr)
@@ -16,9 +16,9 @@ void countingSort(Node** head)
     }
 
     // Setando os ponteiros para fazer a comparação
-    Node* current = (*head);
+    Node<T>* current = (*head);
     // Criamos uma variável com o valor máximo do current
-    int iMax = current -> iPayload;
+    int iMax = current -> payload;
     // Salvando o tamanho do array, para atualizarmos na iteração
     int iTam = 0;
 
@@ -26,7 +26,7 @@ void countingSort(Node** head)
     while (current != nullptr)
     {
         // Se encontrarmos um payload maior, setamos o max como current
-        if (current -> iPayload > iMax) iMax = current -> iPayload;
+        if (current -> payload > iMax) iMax = current -> payload;
 
         // Aumentamos um em tamanho
         iTam ++;
@@ -43,8 +43,8 @@ void countingSort(Node** head)
     // Vamos até o final da lista contando cada um dos elementos
     while (current != nullptr)
     {
-        // Somamos um na posição ipayload de cada arricount
-        arriCount[current->iPayload]++;
+        // Somamos um na posição payload de cada arricount
+        arriCount[current->payload]++;
 
         // setamos current como o próximo
         current = current -> ptrNext;
@@ -65,9 +65,9 @@ void countingSort(Node** head)
     while (current != nullptr)
     {
         // Atualizando o arriSort
-        arriSort[arriCount[current->iPayload] -1] = current -> iPayload;
+        arriSort[arriCount[current->payload] -1] = current -> payload;
         // Diminuindo 1 do arricount
-        arriCount[current->iPayload]--;
+        arriCount[current->payload]--;
 
         // Setando o próximo como current
         current = current -> ptrPrev;
@@ -79,7 +79,7 @@ void countingSort(Node** head)
     // Percorremos as listas mudando os payloads
     for(int i = 0; i<iTam; i++)
     {
-        current -> iPayload = arriSort[i];
+        current -> payload = arriSort[i];
         current = current -> ptrNext;
     }
 

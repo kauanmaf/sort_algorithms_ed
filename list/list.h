@@ -2,16 +2,26 @@
 
 
 // Definição da estrutura Node
+template <typename T>
 struct Node {
-    int iPayload;
+    T iPayload;
     Node* ptrNext;
     Node* ptrPrev;
+
 };
 
 // Protótipos das funções de lista duplamente encadeada
-Node* createNode(int);
-void insertFront(Node**, int);
-void insertEnd(Node**, int);
-void displayList(Node*);
-void removeList(Node**);
-void swapElements(Node*, Node*);
+template <typename T>
+Node<T>* createNode(T);
+
+template <typename T>
+void insertEnd(Node<T>**, T);
+
+template <typename T>
+void displayList(Node<T>*);
+
+template <typename T>
+void removeList(Node<T>**);
+
+template <typename T>
+void swapElements(Node<T>*, Node<T>*);

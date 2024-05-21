@@ -7,7 +7,8 @@ using namespace std;
 
 
 // Função do selection sort não otimizado
-void selectionSort(Node** head)
+template <typename T>
+void selectionSort(Node<T>** head)
 {
     // Se a lista for vazia, não faz nada
     if (head == nullptr)
@@ -17,9 +18,9 @@ void selectionSort(Node** head)
     }
 
     // Ponteiro da posição a ser atualizada
-    Node* position = (*head);
+    Node<T>* position = (*head);
     // Poteiro que percorrerá a lista
-    Node* current = position -> ptrNext;
+    Node<T>* current = position -> ptrNext;
 
     // Até chegar à última posição...
     while (position -> ptrNext != nullptr)
@@ -28,7 +29,7 @@ void selectionSort(Node** head)
         while (current != nullptr) 
         {
             // Se o payload do current for menor que o payload da posição, troca os payloads
-            if (current -> iPayload < position -> iPayload) 
+            if (current -> payload < position -> payload) 
             {
                 swapElements(position, current);
             }
@@ -45,7 +46,8 @@ void selectionSort(Node** head)
 };
 
 // Função do selection sort otimizado
-void optimizedSelectionSort(Node** head)
+template <typename T>
+void optimizedSelectionSort(Node<T>** head)
 {
     // Se a lista for vazia, não faz nada
     if (head == nullptr)
@@ -55,11 +57,11 @@ void optimizedSelectionSort(Node** head)
     }
 
     // Ponteiro da posição a ser atualizada
-    Node* position = (*head);
+    Node<T>* position = (*head);
     // Ponteiro para percorrer a lista
-    Node* current = position->ptrNext;
+    Node<T>* current = position->ptrNext;
     // Ponteiro que ficará apontando para o nó com menor payload
-    Node* ptrMin = position;
+    Node<T>* ptrMin = position;
 
     // Menor payload encontrado
     int iMin = 0;
@@ -68,20 +70,20 @@ void optimizedSelectionSort(Node** head)
     while (position-> ptrNext != nullptr)
     {
         // Configura o iMin para ser o payload do nó posição
-        iMin = position -> iPayload;
+        iMin = position -> payload;
         // Inicia o ptrMin como o próprio posição
-        Node* ptrMin = position;
+        Node<T>* ptrMin = position;
 
         // Até chegar ao final da lista...
         while (current != nullptr) 
         {
             // Se o payload de current for menor que o iMin...
-            if (current -> iPayload < iMin) 
+            if (current -> payload < iMin) 
             {
                 // O ponteiro com menor payload passa a ser o current
                 ptrMin = current;
                 // O payload mínimo passa a ser o payload do current
-                iMin = current -> iPayload;
+                iMin = current -> payload;
             }
             // Avança o current
             current = current -> ptrNext;

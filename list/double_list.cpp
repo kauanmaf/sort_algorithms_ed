@@ -6,10 +6,11 @@ using namespace std;
 
 
 // Função para criar um nó
-Node* createNode(int iPayload)
+template <typename T>
+Node<T>* createNode(T payload)
 {
-    Node* temp = (Node*) malloc(sizeof(Node));
-    temp -> iPayload = iPayload;
+    Node<T>* temp = (Node<T>*) malloc(sizeof(Node<T>));
+    temp -> payload = payload;
     temp -> ptrNext = nullptr;
     temp -> ptrPrev = nullptr;
     
@@ -17,7 +18,8 @@ Node* createNode(int iPayload)
 };
 
 // Função para exibir uma lista
-void displayList(Node* node)
+template <typename T>
+void displayList(Node<T>* node)
 {
     // Se a lista estiver vazia, não faz nada
     if (node == nullptr)
@@ -33,13 +35,13 @@ void displayList(Node* node)
     }
     
     // Nó para percorrer a lista
-    Node* temp = node;
+    Node<T>* temp = node;
     
     cout << "Payload: ";
     // Percorremos a lista até seu fim
     while (temp != nullptr)
     {
-        cout << temp -> iPayload << " ";
+        cout << temp -> payload << " ";
         temp = temp -> ptrNext;
     }
     
@@ -49,10 +51,11 @@ void displayList(Node* node)
 };
 
 // Função para inserir um nó no final da lista
-void insertEnd(Node** head, int iPayload)
+template <typename T>
+void insertEnd(Node<T>** head, T payload)
 {
     // Cria o nó com o valor
-    Node* newNode = createNode(iPayload);
+    Node<T>* newNode = createNode(payload);
 
     // Se a lista for vazia, o novo nó passa a ser o head
     if (*head == nullptr)
@@ -62,7 +65,7 @@ void insertEnd(Node** head, int iPayload)
     }
 
     // Ponteiro para encontrar o final da lista
-    Node* temp = (*head);
+    Node<T>* temp = (*head);
 
     // Percorrendo a lista até seu fim
     while (temp -> ptrNext != nullptr)
@@ -78,11 +81,12 @@ void insertEnd(Node** head, int iPayload)
 };
 
 // Função para limpar a lista
-void removeList(Node** head)
+template <typename T>
+void removeList(Node<T>** head)
 {
     // Ponteiros para percorrer a lista
-    Node* current = *head;
-    Node* next = nullptr;
+    Node<T>* current = *head;
+    Node<T>* next = nullptr;
 
     // Até chegar ao final da lista, avança e libera o anterior
     while (current != nullptr)
@@ -97,7 +101,8 @@ void removeList(Node** head)
 };
 
 // Função para trocar os payloads de dois nós
-void swapElements(Node* ptrFirst, Node* ptrSecond)
+template <typename T>
+void swapElements(Node<T>* ptrFirst, Node<T>* ptrSecond)
 {
     // Se algum deles for nulo, não faz nada
     if (ptrFirst == nullptr || ptrSecond == nullptr)
@@ -107,7 +112,7 @@ void swapElements(Node* ptrFirst, Node* ptrSecond)
     } 
     
     // Trocando os payloads
-    int iTemp = ptrFirst -> iPayload;
-    ptrFirst -> iPayload = ptrSecond -> iPayload;
-    ptrSecond -> iPayload = iTemp;
+    T temp = ptrFirst -> payload;
+    ptrFirst -> payload = ptrSecond -> payload;
+    ptrSecond -> payload = temp;
 };

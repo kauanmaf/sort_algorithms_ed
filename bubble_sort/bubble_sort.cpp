@@ -5,8 +5,8 @@
 
 using namespace std;
 
-
-void bubbleSort(Node** head)
+template <typename T>
+void bubbleSort(Node<T>** head)
 {
     // Checando se o ponteiro que aponta para o head é nulo
     if (head == nullptr)
@@ -16,8 +16,8 @@ void bubbleSort(Node** head)
     }
 
     // Setando os ponteiros para fazer a comparação
-    Node* current = (*head);
-    Node* iterations = (*head);
+    Node<T>* current = (*head);
+    Node<T>* iterations = (*head);
 
     // Enquanto não andamos pela totalidade do pontos (precisamos fazer n-1 vezes)
     while (iterations-> ptrNext != nullptr)
@@ -28,7 +28,7 @@ void bubbleSort(Node** head)
         while (current->ptrNext != nullptr) 
         {
             // Se o payload de current for menor que o payload do próximo
-            if (current->iPayload > current->ptrNext->iPayload) 
+            if (current->payload > current->ptrNext->payload) 
             {
                 // Realizamos o swap
                 swapElements(current, current->ptrNext);
@@ -45,7 +45,8 @@ void bubbleSort(Node** head)
     return;
 };
 
-void optimized_bubbleSort(Node** head)
+template <typename T>
+void optimized_bubbleSort(Node<T>** head)
 {
     // Checando se o ponteiro que aponta para o head é nulo
     if (head == nullptr)
@@ -57,8 +58,8 @@ void optimized_bubbleSort(Node** head)
     // Setando um booleano para saber se já acabamos
     bool swapped;
     // Setando os ponteiros para fazer a comparação
-    Node* current = (*head);
-    Node* last = nullptr;
+    Node<T>* current = (*head);
+    Node<T>* last = nullptr;
 
     // Utilizamos um do while para fazer pelo menos uma vez
     do {
@@ -71,7 +72,7 @@ void optimized_bubbleSort(Node** head)
         while (current->ptrNext != last) 
         {
             // Se o payload de current for menor que o payload do próximo
-            if (current->iPayload > current->ptrNext->iPayload) 
+            if (current->payload > current->ptrNext->payload) 
             {
                 // Realizamos o swap  
                 swapElements(current, current->ptrNext);

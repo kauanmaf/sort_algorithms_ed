@@ -7,7 +7,6 @@ struct Node {
     T payload;
     Node* ptrNext;
     Node* ptrPrev;
-
 };
 
 // Protótipos das funções de lista duplamente encadeada
@@ -26,4 +25,4 @@ void removeList(Node<T>**);
 template <typename T>
 void swapElements(Node<T>*, Node<T>*);
 
-#include "double_list.tpp"
+#include "doubleList.tpp"

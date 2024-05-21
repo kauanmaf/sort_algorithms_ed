@@ -19,7 +19,7 @@ void insertionSort(Node<T>**);
 template <typename T>
 void countingSort(Node<T>**);
 
-#include "selection_sort/selection_sort.tpp"
-#include "bubble_sort/bubble_sort.tpp"
-#include "insertion_sort/insertion_sort.tpp"
-#include "counting_sort/countingSort.tpp"
+#include "selectionSort/selectionSort.tpp"
+#include "bubbleSort/bubbleSort.tpp"
+#include "insertionSort/insertionSort.tpp"
+#include "countingSort/countingSort.tpp"

@@ -1,0 +1,800 @@
+Iteração 1:
+Bubble sort:               779913000 ns
+Optimized bubble sort:     520556000 ns
+Selection sort:            277056000 ns
+Optimized selection sort:  367293000 ns
+Insertion sort:            179896000 ns
+Counting sort:             152344000 ns
+
+Iteração 2:
+Bubble sort:               715454000 ns
+Optimized bubble sort:     550546000 ns
+Selection sort:            334147000 ns
+Optimized selection sort:  504819000 ns
+Insertion sort:            197573000 ns
+Counting sort:             263903000 ns
+
+Iteração 3:
+Bubble sort:               694336000 ns
+Optimized bubble sort:     413833000 ns
+Selection sort:            313291000 ns
+Optimized selection sort:  368740000 ns
+Insertion sort:            204304000 ns
+Counting sort:             157744000 ns
+
+Iteração 4:
+Bubble sort:               928723000 ns
+Optimized bubble sort:     563865000 ns
+Selection sort:            315704000 ns
+Optimized selection sort:  428579000 ns
+Insertion sort:            205209000 ns
+Counting sort:             200787000 ns
+
+Iteração 5:
+Bubble sort:               749005000 ns
+Optimized bubble sort:     367984000 ns
+Selection sort:            290091000 ns
+Optimized selection sort:  447792000 ns
+Insertion sort:            154384000 ns
+Counting sort:             161762000 ns
+
+Iteração 6:
+Bubble sort:               713460000 ns
+Optimized bubble sort:     458186000 ns
+Selection sort:            356024000 ns
+Optimized selection sort:  328284000 ns
+Insertion sort:            209854000 ns
+Counting sort:             143747000 ns
+
+Iteração 7:
+Bubble sort:              1062782000 ns
+Optimized bubble sort:     493251000 ns
+Selection sort:         223387061000 ns
+Optimized selection sort:  820352000 ns
+Insertion sort:            298671000 ns
+Counting sort:             219100000 ns
+
+Iteração 8:
+Bubble sort:              1128797000 ns
+Optimized bubble sort:     917693000 ns
+Selection sort:            679348000 ns
+Optimized selection sort:  887716000 ns
+Insertion sort:            418065000 ns
+Counting sort:             278606000 ns
+
+Iteração 9:
+Bubble sort:               716126000 ns
+Optimized bubble sort:     577987000 ns
+Selection sort:            430864000 ns
+Optimized selection sort:  788921000 ns
+Insertion sort:            440478000 ns
+Counting sort:             434214000 ns
+
+Iteração 10:
+Bubble sort:              1827171000 ns
+Optimized bubble sort:    1135165000 ns
+Selection sort:            772408000 ns
+Optimized selection sort:  956330000 ns
+Insertion sort:            390275000 ns
+Counting sort:             415003000 ns
+
+Iteração 11:
+Bubble sort:              1313579000 ns
+Optimized bubble sort:     341002000 ns
+Selection sort:            832872000 ns
+Optimized selection sort: 1038751000 ns
+Insertion sort:            466438000 ns
+Counting sort:             398193000 ns
+
+Iteração 12:
+Bubble sort:              1910081000 ns
+Optimized bubble sort:    1133071000 ns
+Selection sort:            754962000 ns
+Optimized selection sort:  932662000 ns
+Insertion sort:            386901000 ns
+Counting sort:             388141000 ns
+
+Iteração 13:
+Bubble sort:              1899584000 ns
+Optimized bubble sort:    1096245000 ns
+Selection sort:            751257000 ns
+Optimized selection sort:  956919000 ns
+Insertion sort:            395715000 ns
+Counting sort:             386555000 ns
+
+Iteração 14:
+Bubble sort:              1923764000 ns
+Optimized bubble sort:    1107478000 ns
+Selection sort:            734209000 ns
+Optimized selection sort:  964376000 ns
+Insertion sort:            393122000 ns
+Counting sort:             390222000 ns
+
+Iteração 15:
+Bubble sort:              1546042000 ns
+Optimized bubble sort:    1072645000 ns
+Selection sort:            841886000 ns
+Optimized selection sort: 1008652000 ns
+Insertion sort:            475054000 ns
+Counting sort:             450977000 ns
+
+Iteração 16:
+Bubble sort:              2170731000 ns
+Optimized bubble sort:    1217487000 ns
+Selection sort:            905070000 ns
+Optimized selection sort: 1082451000 ns
+Insertion sort:            466675000 ns
+Counting sort:             438399000 ns
+
+Iteração 17:
+Bubble sort:              2066321000 ns
+Optimized bubble sort:    1185784000 ns
+Selection sort:            779735000 ns
+Optimized selection sort:  939854000 ns
+Insertion sort:            391407000 ns
+Counting sort:             388241000 ns
+
+Iteração 18:
+Bubble sort:              1928338000 ns
+Optimized bubble sort:    1125765000 ns
+Selection sort:            737612000 ns
+Optimized selection sort:  937322000 ns
+Insertion sort:            392009000 ns
+Counting sort:             381938000 ns
+
+Iteração 19:
+Bubble sort:              1779505000 ns
+Optimized bubble sort:    1001135000 ns
+Selection sort:            674368000 ns
+Optimized selection sort:  967183000 ns
+Insertion sort:            389874000 ns
+Counting sort:             400695000 ns
+
+Iteração 20:
+Bubble sort:              1910628000 ns
+Optimized bubble sort:    1133594000 ns
+Selection sort:            752419000 ns
+Optimized selection sort:  950177000 ns
+Insertion sort:            396454000 ns
+Counting sort:             384954000 ns
+
+Iteração 21:
+Bubble sort:              1938116000 ns
+Optimized bubble sort:    1114843000 ns
+Selection sort:            797931000 ns
+Optimized selection sort:  935121000 ns
+Insertion sort:            402693000 ns
+Counting sort:             396490000 ns
+
+Iteração 22:
+Bubble sort:              1908179000 ns
+Optimized bubble sort:    1151139000 ns
+Selection sort:            759254000 ns
+Optimized selection sort:  936262000 ns
+Insertion sort:            398563000 ns
+Counting sort:             396115000 ns
+
+Iteração 23:
+Bubble sort:              1927206000 ns
+Optimized bubble sort:    1132661000 ns
+Selection sort:            748764000 ns
+Optimized selection sort:  938632000 ns
+Insertion sort:            396554000 ns
+Counting sort:             398959000 ns
+
+Iteração 24:
+Bubble sort:              1913961000 ns
+Optimized bubble sort:     795575000 ns
+Selection sort:            661211000 ns
+Optimized selection sort:  594600000 ns
+Insertion sort:            358382000 ns
+Counting sort:             435907000 ns
+
+Iteração 25:
+Bubble sort:              2039891000 ns
+Optimized bubble sort:    1220393000 ns
+Selection sort:            915139000 ns
+Optimized selection sort: 1002414000 ns
+Insertion sort:            417179000 ns
+Counting sort:             431845000 ns
+
+Iteração 26:
+Bubble sort:              2049093000 ns
+Optimized bubble sort:    1219129000 ns
+Selection sort:            816018000 ns
+Optimized selection sort:  991037000 ns
+Insertion sort:            456274000 ns
+Counting sort:             448446000 ns
+
+Iteração 27:
+Bubble sort:              2088472000 ns
+Optimized bubble sort:    1156043000 ns
+Selection sort:            828904000 ns
+Optimized selection sort: 1000165000 ns
+Insertion sort:            486177000 ns
+Counting sort:             431368000 ns
+
+Iteração 28:
+Bubble sort:              2114160000 ns
+Optimized bubble sort:    1131765000 ns
+Selection sort:            840388000 ns
+Optimized selection sort:  992556000 ns
+Insertion sort:            441225000 ns
+Counting sort:             488880000 ns
+
+Iteração 29:
+Bubble sort:              1837582000 ns
+Optimized bubble sort:    1209988000 ns
+Selection sort:            898567000 ns
+Optimized selection sort: 1040887000 ns
+Insertion sort:            428571000 ns
+Counting sort:             374728000 ns
+
+Iteração 30:
+Bubble sort:              1997932000 ns
+Optimized bubble sort:    1251624000 ns
+Selection sort:            815067000 ns
+Optimized selection sort:  947536000 ns
+Insertion sort:            425040000 ns
+Counting sort:             415013000 ns
+
+Iteração 31:
+Bubble sort:               670305000 ns
+Optimized bubble sort:     325980000 ns
+Selection sort:            202365000 ns
+Optimized selection sort:  286095000 ns
+Insertion sort:            119130000 ns
+Counting sort:              95154000 ns
+
+Iteração 32:
+Bubble sort:              1883258000 ns
+Optimized bubble sort:    1075891000 ns
+Selection sort:            743360000 ns
+Optimized selection sort:  920796000 ns
+Insertion sort:            402210000 ns
+Counting sort:             366572000 ns
+
+Iteração 33:
+Bubble sort:              1900686000 ns
+Optimized bubble sort:    1062905000 ns
+Selection sort:            741665000 ns
+Optimized selection sort:  929244000 ns
+Insertion sort:            390748000 ns
+Counting sort:             386322000 ns
+
+Iteração 34:
+Bubble sort:              1875299000 ns
+Optimized bubble sort:    1060509000 ns
+Selection sort:            807564000 ns
+Optimized selection sort:  923510000 ns
+Insertion sort:            399867000 ns
+Counting sort:             397080000 ns
+
+Iteração 35:
+Bubble sort:              1967973000 ns
+Optimized bubble sort:    1082819000 ns
+Selection sort:            757680000 ns
+Optimized selection sort:  954342000 ns
+Insertion sort:            393247000 ns
+Counting sort:             408180000 ns
+
+Iteração 36:
+Bubble sort:              1895414000 ns
+Optimized bubble sort:    1125838000 ns
+Selection sort:            763289000 ns
+Optimized selection sort:  903234000 ns
+Insertion sort:            378495000 ns
+Counting sort:             391576000 ns
+
+Iteração 37:
+Bubble sort:              1873992000 ns
+Optimized bubble sort:    1097268000 ns
+Selection sort:            759002000 ns
+Optimized selection sort:  951626000 ns
+Insertion sort:            416115000 ns
+Counting sort:             444810000 ns
+
+Iteração 38:
+Bubble sort:              1861448000 ns
+Optimized bubble sort:    1123388000 ns
+Selection sort:            758919000 ns
+Optimized selection sort:  965456000 ns
+Insertion sort:            377943000 ns
+Counting sort:             412781000 ns
+
+Iteração 39:
+Bubble sort:              1925156000 ns
+Optimized bubble sort:    1081317000 ns
+Selection sort:            768507000 ns
+Optimized selection sort:  920145000 ns
+Insertion sort:            369972000 ns
+Counting sort:             396884000 ns
+
+Iteração 40:
+Bubble sort:              1917313000 ns
+Optimized bubble sort:    1137507000 ns
+Selection sort:            837722000 ns
+Optimized selection sort:  948668000 ns
+Insertion sort:            395882000 ns
+Counting sort:             409430000 ns
+
+Iteração 41:
+Bubble sort:              1906341000 ns
+Optimized bubble sort:    1108038000 ns
+Selection sort:            748915000 ns
+Optimized selection sort:  944702000 ns
+Insertion sort:            389341000 ns
+Counting sort:             388092000 ns
+
+Iteração 42:
+Bubble sort:              1761216000 ns
+Optimized bubble sort:    1102881000 ns
+Selection sort:            802574000 ns
+Optimized selection sort: 1029726000 ns
+Insertion sort:            425848000 ns
+Counting sort:             415193000 ns
+
+Iteração 43:
+Bubble sort:              1448311000 ns
+Optimized bubble sort:     609274000 ns
+Selection sort:            248056000 ns
+Optimized selection sort:  385679000 ns
+Insertion sort:            154365000 ns
+Counting sort:             117567000 ns
+
+Iteração 44:
+Bubble sort:               741146000 ns
+Optimized bubble sort:     413400000 ns
+Selection sort:            279702000 ns
+Optimized selection sort:  356695000 ns
+Insertion sort:            144661000 ns
+Counting sort:             155231000 ns
+
+Iteração 45:
+Bubble sort:               981824000 ns
+Optimized bubble sort:     624480000 ns
+Selection sort:            371349000 ns
+Optimized selection sort:  396812000 ns
+Insertion sort:            190875000 ns
+Counting sort:             165243000 ns
+
+Iteração 46:
+Bubble sort:               702412000 ns
+Optimized bubble sort:     405854000 ns
+Selection sort:            378783000 ns
+Optimized selection sort:  475328000 ns
+Insertion sort:            284637000 ns
+Counting sort:             239612000 ns
+
+Iteração 47:
+Bubble sort:               837893000 ns
+Optimized bubble sort:     646381000 ns
+Selection sort:            369057000 ns
+Optimized selection sort:  510014000 ns
+Insertion sort:            367638000 ns
+Counting sort:             430141000 ns
+
+Iteração 48:
+Bubble sort:              1987345000 ns
+Optimized bubble sort:    1017831000 ns
+Selection sort:            705795000 ns
+Optimized selection sort:  866043000 ns
+Insertion sort:            392785000 ns
+Counting sort:             339195000 ns
+
+Iteração 49:
+Bubble sort:              1485271000 ns
+Optimized bubble sort:     465652000 ns
+Selection sort:            328334000 ns
+Optimized selection sort:  600228000 ns
+Insertion sort:            323715000 ns
+Counting sort:             217166000 ns
+
+Iteração 50:
+Bubble sort:              1147243000 ns
+Optimized bubble sort:     902642000 ns
+Selection sort:            913091000 ns
+Optimized selection sort:  845691000 ns
+Insertion sort:            386814000 ns
+Counting sort:             448903000 ns
+
+Iteração 51:
+Bubble sort:               718328000 ns
+Optimized bubble sort:     467757000 ns
+Selection sort:            393883000 ns
+Optimized selection sort:  440040000 ns
+Insertion sort:            171993000 ns
+Counting sort:             251627000 ns
+
+Iteração 52:
+Bubble sort:               852069000 ns
+Optimized bubble sort:     419818000 ns
+Selection sort:            473984000 ns
+Optimized selection sort:  576142000 ns
+Insertion sort:            261491000 ns
+Counting sort:             210182000 ns
+
+Iteração 53:
+Bubble sort:               656936000 ns
+Optimized bubble sort:     467184000 ns
+Selection sort:            448442000 ns
+Optimized selection sort:  434883000 ns
+Insertion sort:            190773000 ns
+Counting sort:             183397000 ns
+
+Iteração 54:
+Bubble sort:               867915000 ns
+Optimized bubble sort:     602344000 ns
+Selection sort:            336409000 ns
+Optimized selection sort:  401051000 ns
+Insertion sort:            196227000 ns
+Counting sort:             227818000 ns
+
+Iteração 55:
+Bubble sort:              1117748000 ns
+Optimized bubble sort:     648175000 ns
+Selection sort:            340129000 ns
+Optimized selection sort:  609095000 ns
+Insertion sort:            301068000 ns
+Counting sort:             225402000 ns
+
+Iteração 56:
+Bubble sort:              1072526000 ns
+Optimized bubble sort:     638525000 ns
+Selection sort:            459274000 ns
+Optimized selection sort:  589989000 ns
+Insertion sort:            194657000 ns
+Counting sort:             204821000 ns
+
+Iteração 57:
+Bubble sort:              1039044000 ns
+Optimized bubble sort:     485463000 ns
+Selection sort:            479358000 ns
+Optimized selection sort:  752698000 ns
+Insertion sort:            160702000 ns
+Counting sort:             254953000 ns
+
+Iteração 58:
+Bubble sort:               997442000 ns
+Optimized bubble sort:     482522000 ns
+Selection sort:            419625000 ns
+Optimized selection sort:  761632000 ns
+Insertion sort:            189070000 ns
+Counting sort:             363261000 ns
+
+Iteração 59:
+Bubble sort:               791131000 ns
+Optimized bubble sort:     487050000 ns
+Selection sort:            385615000 ns
+Optimized selection sort:  343095000 ns
+Insertion sort:            218471000 ns
+Counting sort:             182900000 ns
+
+Iteração 60:
+Bubble sort:               747124000 ns
+Optimized bubble sort:     398765000 ns
+Selection sort:            413323000 ns
+Optimized selection sort:  389866000 ns
+Insertion sort:            137301000 ns
+Counting sort:             174618000 ns
+
+Iteração 61:
+Bubble sort:               821559000 ns
+Optimized bubble sort:     441391000 ns
+Selection sort:            352464000 ns
+Optimized selection sort:  332707000 ns
+Insertion sort:            141212000 ns
+Counting sort:             136535000 ns
+
+Iteração 62:
+Bubble sort:               869031000 ns
+Optimized bubble sort:     383619000 ns
+Selection sort:            273309000 ns
+Optimized selection sort:  397272000 ns
+Insertion sort:            165802000 ns
+Counting sort:             120504000 ns
+
+Iteração 63:
+Bubble sort:               763851000 ns
+Optimized bubble sort:     543938000 ns
+Selection sort:            509258000 ns
+Optimized selection sort:  419086000 ns
+Insertion sort:            238917000 ns
+Counting sort:             251686000 ns
+
+Iteração 64:
+Bubble sort:               906900000 ns
+Optimized bubble sort:     486744000 ns
+Selection sort:            359926000 ns
+Optimized selection sort:  379440000 ns
+Insertion sort:            143006000 ns
+Counting sort:             136531000 ns
+
+Iteração 65:
+Bubble sort:               768585000 ns
+Optimized bubble sort:     462007000 ns
+Selection sort:            359182000 ns
+Optimized selection sort:  434100000 ns
+Insertion sort:            152589000 ns
+Counting sort:             140067000 ns
+
+Iteração 66:
+Bubble sort:               892311000 ns
+Optimized bubble sort:     406999000 ns
+Selection sort:            349420000 ns
+Optimized selection sort:  349739000 ns
+Insertion sort:            136559000 ns
+Counting sort:             185425000 ns
+
+Iteração 67:
+Bubble sort:               730330000 ns
+Optimized bubble sort:     408094000 ns
+Selection sort:            353231000 ns
+Optimized selection sort:  396109000 ns
+Insertion sort:            166307000 ns
+Counting sort:             210462000 ns
+
+Iteração 68:
+Bubble sort:               820229000 ns
+Optimized bubble sort:     400057000 ns
+Selection sort:            301652000 ns
+Optimized selection sort:  531210000 ns
+Insertion sort:            169212000 ns
+Counting sort:             256945000 ns
+
+Iteração 69:
+Bubble sort:               799746000 ns
+Optimized bubble sort:     579289000 ns
+Selection sort:            347642000 ns
+Optimized selection sort:  393320000 ns
+Insertion sort:            121536000 ns
+Counting sort:             148493000 ns
+
+Iteração 70:
+Bubble sort:               786731000 ns
+Optimized bubble sort:     488285000 ns
+Selection sort:            313243000 ns
+Optimized selection sort:  367443000 ns
+Insertion sort:            216432000 ns
+Counting sort:             139717000 ns
+
+Iteração 71:
+Bubble sort:               682788000 ns
+Optimized bubble sort:     374330000 ns
+Selection sort:            345073000 ns
+Optimized selection sort:  355124000 ns
+Insertion sort:            140307000 ns
+Counting sort:             146429000 ns
+
+Iteração 72:
+Bubble sort:               782709000 ns
+Optimized bubble sort:     416253000 ns
+Selection sort:            248340000 ns
+Optimized selection sort:  315404000 ns
+Insertion sort:            175161000 ns
+Counting sort:             116085000 ns
+
+Iteração 73:
+Bubble sort:               698896000 ns
+Optimized bubble sort:     522086000 ns
+Selection sort:            454762000 ns
+Optimized selection sort:  664106000 ns
+Insertion sort:            280528000 ns
+Counting sort:             153936000 ns
+
+Iteração 74:
+Bubble sort:               686882000 ns
+Optimized bubble sort:     471622000 ns
+Selection sort:            487889000 ns
+Optimized selection sort:  415736000 ns
+Insertion sort:            190137000 ns
+Counting sort:             182539000 ns
+
+Iteração 75:
+Bubble sort:               790009000 ns
+Optimized bubble sort:     445975000 ns
+Selection sort:            269200000 ns
+Optimized selection sort:  400548000 ns
+Insertion sort:            117928000 ns
+Counting sort:             222347000 ns
+
+Iteração 76:
+Bubble sort:               853692000 ns
+Optimized bubble sort:     387902000 ns
+Selection sort:            382574000 ns
+Optimized selection sort:  338575000 ns
+Insertion sort:            177836000 ns
+Counting sort:             147040000 ns
+
+Iteração 77:
+Bubble sort:               792424000 ns
+Optimized bubble sort:     394334000 ns
+Selection sort:            258019000 ns
+Optimized selection sort:  398821000 ns
+Insertion sort:            128756000 ns
+Counting sort:             146318000 ns
+
+Iteração 78:
+Bubble sort:               700312000 ns
+Optimized bubble sort:     541318000 ns
+Selection sort:            310216000 ns
+Optimized selection sort:  349457000 ns
+Insertion sort:            122752000 ns
+Counting sort:             146669000 ns
+
+Iteração 79:
+Bubble sort:               850169000 ns
+Optimized bubble sort:     477789000 ns
+Selection sort:            262832000 ns
+Optimized selection sort:  481635000 ns
+Insertion sort:            205616000 ns
+Counting sort:             208720000 ns
+
+Iteração 80:
+Bubble sort:               697090000 ns
+Optimized bubble sort:     408149000 ns
+Selection sort:            295903000 ns
+Optimized selection sort:  324383000 ns
+Insertion sort:            126733000 ns
+Counting sort:             139528000 ns
+
+Iteração 81:
+Bubble sort:               741982000 ns
+Optimized bubble sort:     537297000 ns
+Selection sort:            356558000 ns
+Optimized selection sort:  391225000 ns
+Insertion sort:            198547000 ns
+Counting sort:             157837000 ns
+
+Iteração 82:
+Bubble sort:               654091000 ns
+Optimized bubble sort:     375389000 ns
+Selection sort:            251258000 ns
+Optimized selection sort:  335231000 ns
+Insertion sort:            134348000 ns
+Counting sort:             129931000 ns
+
+Iteração 83:
+Bubble sort:               721349000 ns
+Optimized bubble sort:     377481000 ns
+Selection sort:            256226000 ns
+Optimized selection sort:  302999000 ns
+Insertion sort:            124022000 ns
+Counting sort:             138889000 ns
+
+Iteração 84:
+Bubble sort:               687651000 ns
+Optimized bubble sort:     476806000 ns
+Selection sort:            274648000 ns
+Optimized selection sort:  322128000 ns
+Insertion sort:            144849000 ns
+Counting sort:             151682000 ns
+
+Iteração 85:
+Bubble sort:               793198000 ns
+Optimized bubble sort:     715806000 ns
+Selection sort:            540422000 ns
+Optimized selection sort:  593724000 ns
+Insertion sort:            190524000 ns
+Counting sort:             269917000 ns
+
+Iteração 86:
+Bubble sort:               793341000 ns
+Optimized bubble sort:     417609000 ns
+Selection sort:            262311000 ns
+Optimized selection sort:  335423000 ns
+Insertion sort:            228067000 ns
+Counting sort:             132238000 ns
+
+Iteração 87:
+Bubble sort:               681967000 ns
+Optimized bubble sort:     607790000 ns
+Selection sort:            253900000 ns
+Optimized selection sort:  331176000 ns
+Insertion sort:            210968000 ns
+Counting sort:             195358000 ns
+
+Iteração 88:
+Bubble sort:               858651000 ns
+Optimized bubble sort:     532624000 ns
+Selection sort:            278796000 ns
+Optimized selection sort:  367911000 ns
+Insertion sort:            120193000 ns
+Counting sort:             201480000 ns
+
+Iteração 89:
+Bubble sort:               768368000 ns
+Optimized bubble sort:     424534000 ns
+Selection sort:            345503000 ns
+Optimized selection sort:  400024000 ns
+Insertion sort:            205318000 ns
+Counting sort:             138302000 ns
+
+Iteração 90:
+Bubble sort:               584120000 ns
+Optimized bubble sort:     522697000 ns
+Selection sort:            375253000 ns
+Optimized selection sort:  455266000 ns
+Insertion sort:            125501000 ns
+Counting sort:             183315000 ns
+
+Iteração 91:
+Bubble sort:               826717000 ns
+Optimized bubble sort:     460914000 ns
+Selection sort:            226744000 ns
+Optimized selection sort:  346859000 ns
+Insertion sort:            119596000 ns
+Counting sort:             155879000 ns
+
+Iteração 92:
+Bubble sort:               808514000 ns
+Optimized bubble sort:     544934000 ns
+Selection sort:            351552000 ns
+Optimized selection sort:  395574000 ns
+Insertion sort:            117651000 ns
+Counting sort:             125549000 ns
+
+Iteração 93:
+Bubble sort:               853130000 ns
+Optimized bubble sort:     458963000 ns
+Selection sort:            261242000 ns
+Optimized selection sort:  482981000 ns
+Insertion sort:            204289000 ns
+Counting sort:             145719000 ns
+
+Iteração 94:
+Bubble sort:               747667000 ns
+Optimized bubble sort:     409828000 ns
+Selection sort:            253125000 ns
+Optimized selection sort:  368023000 ns
+Insertion sort:            122507000 ns
+Counting sort:             137079000 ns
+
+Iteração 95:
+Bubble sort:               693340000 ns
+Optimized bubble sort:     438614000 ns
+Selection sort:            352128000 ns
+Optimized selection sort:  392502000 ns
+Insertion sort:            179535000 ns
+Counting sort:             128220000 ns
+
+Iteração 96:
+Bubble sort:               926635000 ns
+Optimized bubble sort:     449691000 ns
+Selection sort:            297918000 ns
+Optimized selection sort:  356626000 ns
+Insertion sort:            162148000 ns
+Counting sort:             116882000 ns
+
+Iteração 97:
+Bubble sort:               843203000 ns
+Optimized bubble sort:     418433000 ns
+Selection sort:            242904000 ns
+Optimized selection sort:  313589000 ns
+Insertion sort:            133585000 ns
+Counting sort:             121523000 ns
+
+Iteração 98:
+Bubble sort:               827523000 ns
+Optimized bubble sort:     451634000 ns
+Selection sort:            359759000 ns
+Optimized selection sort:  337563000 ns
+Insertion sort:            119142000 ns
+Counting sort:             201195000 ns
+
+Iteração 99:
+Bubble sort:               722899000 ns
+Optimized bubble sort:     538340000 ns
+Selection sort:            293250000 ns
+Optimized selection sort:  338634000 ns
+Insertion sort:            137581000 ns
+Counting sort:             201943000 ns
+
+Iteração 100:
+Bubble sort:              1057393000 ns
+Optimized bubble sort:     596857000 ns
+Selection sort:            507796000 ns
+Optimized selection sort:  438566000 ns
+Insertion sort:            129045000 ns
+Counting sort:             148514000 ns
+

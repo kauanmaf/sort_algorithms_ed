@@ -1,5 +1,6 @@
 #pragma once
 
+// Estrutura do nó da árvore
 template <typename T>
 struct NodeTree
 {
@@ -9,6 +10,7 @@ struct NodeTree
 
 };
 
+// Protótipos
 template <typename T>
 NodeTree<T>* newNodeTree(T);
 
@@ -17,9 +19,6 @@ NodeTree<T>* insertNodeTree(NodeTree<T>*, T);
 
 template <typename T>
 void cleanTree(NodeTree<T>*);
-
-template <typename T>
-NodeTree<T>* deleteNode(NodeTree<T>*, T);
 
 template <typename T>
 NodeTree<T>* lesserLeaf(NodeTree<T>*);
@@ -32,5 +31,6 @@ NodeTree<T>* searchBfs(NodeTree<T>*, T);
 
 template <typename T>
 NodeTree<T>* dfsTraversal(NodeTree<T>*, T);
+
 
 #include "binaryTree.tpp"

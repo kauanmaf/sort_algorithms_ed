@@ -124,7 +124,7 @@ Node<T>* searchNodebyValue(Node<T>** head, T value){
         cout << "Nao e possivel encontrar o num ponteiro nulo" << endl;
         return nullptr;
     }
-    // Setamos um ponteiro como 
+    // Setamos um ponteiro como current
     Node<T>* ptrCurrent = (*head);
 
     // Enquanto não for nulo (chegarmos ao final)

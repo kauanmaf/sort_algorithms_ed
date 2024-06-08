@@ -23,6 +23,14 @@ int main() {
     cout << "BFS Traversal: ";
     bfsTraversal(root);
 
+    int searchValue = 60;
+    NodeTree<int>* searched = searchBfs(root, 13);
+    if (searched != nullptr) {
+        cout << "Node with value " << searched -> payload << " found in the tree." << endl;
+    } else {
+        cout << "Node with value " << searched << " not found in the tree." << endl;
+    }
+
     // Searching for a node using DFS Traversal
     int searchValue = 60;
     NodeTree<int>* searchResult = dfsTraversal(root, searchValue);

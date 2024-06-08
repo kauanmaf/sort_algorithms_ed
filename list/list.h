@@ -25,4 +25,7 @@ void removeList(Node<T>**);
 template <typename T>
 void swapElements(Node<T>*, Node<T>*);
 
+template <typename T>
+Node<T>* searchNodebyValue(Node<T>** , T);
+
 #include "doubleList.tpp"

@@ -116,3 +116,32 @@ void swapElements(Node<T>* ptrFirst, Node<T>* ptrSecond)
     ptrFirst -> payload = ptrSecond -> payload;
     ptrSecond -> payload = temp;
 };
+
+template <typename T>
+Node<T>* searchNodebyValue(Node<T>** head, T value){
+    if ((*head) == nullptr)
+    {
+        cout << "Nao e possivel encontrar o num ponteiro nulo" << endl;
+        return nullptr;
+    }
+    // Setamos um ponteiro como 
+    Node<T>* ptrCurrent = (*head);
+
+    // Enquanto não for nulo (chegarmos ao final)
+    while(ptrCurrent != nullptr)
+    {
+        // Checamos se o valor do payload é igual ao valor que estamos procurando 
+        if (ptrCurrent -> payload == value)
+        {
+            // Retornamos o primeiro current que achamos
+            return ptrCurrent;
+        }
+
+        // Setamos o current como o próximo
+        ptrCurrent = ptrCurrent -> ptrNext;
+    }
+
+    // Se sairmos do while significa que não encontramos o valor
+    cout << "Valor nao encontrado" << endl;
+    return nullptr; 
+}

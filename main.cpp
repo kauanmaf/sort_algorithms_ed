@@ -16,11 +16,11 @@ int main()
     ///// TESTES DE ORDENAMENTO /////
 
     // Número de testes
-    const int tests = 100; 
+    int tests = 1; 
     // Número de algoritmos a serem testados
-    const int num_algorithms = 6; 
+    int num_algorithms = 6; 
     // Tamanho de cada lista
-    const int num_elements = 10000; 
+    int num_elements = 10000; 
 
     // Matriz para armazenar os tempos
     long long times[tests][num_algorithms] = {0}; 
@@ -126,13 +126,13 @@ int main()
 
     ///// TESTES DE ÁRVORES /////
     // Números de testes, de experimentos e de elementos por estrutura e range dos valores
-    const int tests = 100; 
-    const int num_algorithms = 4; 
-    const int num_elements = 10000; 
-    const int range_elements = 100000; 
+    tests = 100; 
+    num_algorithms = 4; 
+    num_elements = 10000; 
+    int range_elements = 100000; 
 
     // Inicializando a matriz de resultados
-    long long times[tests][num_algorithms] = {0}; 
+    long long times_tree[tests][num_algorithms] = {0}; 
 
     // Em cada teste...
     for (int i = 0; i < tests; ++i)
@@ -164,7 +164,7 @@ int main()
         }
         auto stopCreateList = high_resolution_clock::now();
         auto durationCreateList = duration_cast<nanoseconds>(stopCreateList - startCreateList).count();
-        times[i][0] = durationCreateList;
+        times_tree[i][0] = durationCreateList;
 
         // Conta o tempo de criação da árvore
         auto startCreateTree = high_resolution_clock::now();
@@ -177,7 +177,7 @@ int main()
         }
         auto stopCreateTree = high_resolution_clock::now();
         auto durationCreateTree = duration_cast<nanoseconds>(stopCreateTree - startCreateTree).count();
-        times[i][1] = durationCreateTree;
+        times_tree[i][1] = durationCreateTree;
 
         // Sorteando um valor aleatório dentre os que estão nas estruturas para procurar
         int indexElement = rand() % num_elements + 1;
@@ -188,21 +188,21 @@ int main()
         Node<int>* foundNodeList = searchNodebyValue(&list, searchElement);
         auto stopSearchList = high_resolution_clock::now();
         auto durationSearchList = duration_cast<nanoseconds>(stopSearchList - startSearchList).count();
-        times[i][2] = durationSearchList;
+        times_tree[i][2] = durationSearchList;
 
         // Contando o tempo de busca na árvore por BFS
         auto startSearchTree = high_resolution_clock::now();
         NodeTree<int>* foundNodeTree = searchBfs(tree, searchElement);
         auto stopSearchTree = high_resolution_clock::now();
         auto durationSearchTree = duration_cast<nanoseconds>(stopSearchTree - startSearchTree).count();
-        times[i][3] = durationSearchTree;
+        times_tree[i][3] = durationSearchTree;
 
         // Contando o tempo de busca na árvore por DFS
         auto startSearchTreeDFS = high_resolution_clock::now();
         NodeTree<int>* foundNodeTreeDFS = dfsTraversal(tree, searchElement);
         auto stopSearchTreeDFS = high_resolution_clock::now();
         auto durationSearchTreeDFS = duration_cast<nanoseconds>(stopSearchTreeDFS - startSearchTreeDFS).count();
-        times[i][4] = durationSearchTreeDFS;
+        times_tree[i][4] = durationSearchTreeDFS;
 
         // Limpa as listas e árvores
         removeList(&list);
@@ -211,14 +211,14 @@ int main()
 
         // Exporta os tempos formatados
         cout << "Iteração " << i + 1 << ":" << endl;
-        cout << "Criação de lista: " << setw(29) << times[i][0] << " ns" << endl;
-        cout << "Criação de árvore: " << setw(28) << times[i][1] << " ns" << endl;
-        cout << "Busca em lista: " << setw(31) << times[i][2] << " ns" << endl;
-        cout << "Busca em árvore (BFS): " << setw(24) << times[i][3] << " ns" << endl;
-        cout << "Busca em árvore (DFS): " << setw(24) << times[i][4] << " ns" << endl;
-        cout << "Criação + busca de lista: " << setw(21) << times[i][0] + times[i][2] << " ns" << endl;
-        cout << "Criação + busca de árvore (BFS): " << setw(14) << times[i][1] + times[i][3] << " ns" << endl;
-        cout << "Criação + busca de árvore (DFS): " << setw(14) << times[i][1] + times[i][4] << " ns" << endl;
+        cout << "Criação de lista: " << setw(29) << times_tree[i][0] << " ns" << endl;
+        cout << "Criação de árvore: " << setw(28) << times_tree[i][1] << " ns" << endl;
+        cout << "Busca em lista: " << setw(31) << times_tree[i][2] << " ns" << endl;
+        cout << "Busca em árvore (BFS): " << setw(24) << times_tree[i][3] << " ns" << endl;
+        cout << "Busca em árvore (DFS): " << setw(24) << times_tree[i][4] << " ns" << endl;
+        cout << "Criação + busca de lista: " << setw(21) << times_tree[i][0] + times_tree[i][2] << " ns" << endl;
+        cout << "Criação + busca de árvore (BFS): " << setw(14) << times_tree[i][1] + times_tree[i][3] << " ns" << endl;
+        cout << "Criação + busca de árvore (DFS): " << setw(14) << times_tree[i][1] + times_tree[i][4] << " ns" << endl;
         cout << endl;
     }
     return 0;

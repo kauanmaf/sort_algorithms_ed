@@ -1,0 +1,999 @@
+Iteração 1:
+Criação de lista:                        263281 ns
+Criação de árvore:                      2079259 ns
+Busca em lista:                            9091 ns
+Busca em árvore (BFS):                 57482370 ns
+Busca em árvore (DFS):                   177036 ns
+Criação + busca de lista:                272372 ns
+Criação + busca de árvore (BFS):       59561629 ns
+Criação + busca de árvore (DFS):        2256295 ns
+
+Iteração 2:
+Criação de lista:                        186163 ns
+Criação de árvore:                      1988949 ns
+Busca em lista:                            3386 ns
+Busca em árvore (BFS):                160478962 ns
+Busca em árvore (DFS):                   127567 ns
+Criação + busca de lista:                189549 ns
+Criação + busca de árvore (BFS):      162467911 ns
+Criação + busca de árvore (DFS):        2116516 ns
+
+Iteração 3:
+Criação de lista:                        176772 ns
+Criação de árvore:                      1983695 ns
+Busca em lista:                             409 ns
+Busca em árvore (BFS):                152155846 ns
+Busca em árvore (DFS):                   147588 ns
+Criação + busca de lista:                177181 ns
+Criação + busca de árvore (BFS):      154139541 ns
+Criação + busca de árvore (DFS):        2131283 ns
+
+Iteração 4:
+Criação de lista:                        185280 ns
+Criação de árvore:                      1939987 ns
+Busca em lista:                           17074 ns
+Busca em árvore (BFS):                 60692385 ns
+Busca em árvore (DFS):                    31253 ns
+Criação + busca de lista:                202354 ns
+Criação + busca de árvore (BFS):       62632372 ns
+Criação + busca de árvore (DFS):        1971240 ns
+
+Iteração 5:
+Criação de lista:                        178622 ns
+Criação de árvore:                      2038233 ns
+Busca em lista:                           16551 ns
+Busca em árvore (BFS):                 28475034 ns
+Busca em árvore (DFS):                    73138 ns
+Criação + busca de lista:                195173 ns
+Criação + busca de árvore (BFS):       30513267 ns
+Criação + busca de árvore (DFS):        2111371 ns
+
+Iteração 6:
+Criação de lista:                        182401 ns
+Criação de árvore:                      1911079 ns
+Busca em lista:                           22623 ns
+Busca em árvore (BFS):                140735945 ns
+Busca em árvore (DFS):                   173829 ns
+Criação + busca de lista:                205024 ns
+Criação + busca de árvore (BFS):      142647024 ns
+Criação + busca de árvore (DFS):        2084908 ns
+
+Iteração 7:
+Criação de lista:                        176500 ns
+Criação de árvore:                      2067002 ns
+Busca em lista:                            8084 ns
+Busca em árvore (BFS):                165995463 ns
+Busca em árvore (DFS):                    60255 ns
+Criação + busca de lista:                184584 ns
+Criação + busca de árvore (BFS):      168062465 ns
+Criação + busca de árvore (DFS):        2127257 ns
+
+Iteração 8:
+Criação de lista:                        178107 ns
+Criação de árvore:                      1977677 ns
+Busca em lista:                           31878 ns
+Busca em árvore (BFS):                  6791035 ns
+Busca em árvore (DFS):                    95137 ns
+Criação + busca de lista:                209985 ns
+Criação + busca de árvore (BFS):        8768712 ns
+Criação + busca de árvore (DFS):        2072814 ns
+
+Iteração 9:
+Criação de lista:                        185247 ns
+Criação de árvore:                      2030354 ns
+Busca em lista:                            4022 ns
+Busca em árvore (BFS):                 72677165 ns
+Busca em árvore (DFS):                   129321 ns
+Criação + busca de lista:                189269 ns
+Criação + busca de árvore (BFS):       74707519 ns
+Criação + busca de árvore (DFS):        2159675 ns
+
+Iteração 10:
+Criação de lista:                        176792 ns
+Criação de árvore:                      2054123 ns
+Busca em lista:                            6504 ns
+Busca em árvore (BFS):                 41652295 ns
+Busca em árvore (DFS):                    83672 ns
+Criação + busca de lista:                183296 ns
+Criação + busca de árvore (BFS):       43706418 ns
+Criação + busca de árvore (DFS):        2137795 ns
+
+Iteração 11:
+Criação de lista:                        181944 ns
+Criação de árvore:                      2022718 ns
+Busca em lista:                            3749 ns
+Busca em árvore (BFS):                 12975068 ns
+Busca em árvore (DFS):                    35507 ns
+Criação + busca de lista:                185693 ns
+Criação + busca de árvore (BFS):       14997786 ns
+Criação + busca de árvore (DFS):        2058225 ns
+
+Iteração 12:
+Criação de lista:                        182797 ns
+Criação de árvore:                      1929783 ns
+Busca em lista:                           19327 ns
+Busca em árvore (BFS):                137237239 ns
+Busca em árvore (DFS):                    21360 ns
+Criação + busca de lista:                202124 ns
+Criação + busca de árvore (BFS):      139167022 ns
+Criação + busca de árvore (DFS):        1951143 ns
+
+Iteração 13:
+Criação de lista:                        179580 ns
+Criação de árvore:                      1967113 ns
+Busca em lista:                            5269 ns
+Busca em árvore (BFS):                143336714 ns
+Busca em árvore (DFS):                    96115 ns
+Criação + busca de lista:                184849 ns
+Criação + busca de árvore (BFS):      145303827 ns
+Criação + busca de árvore (DFS):        2063228 ns
+
+Iteração 14:
+Criação de lista:                        177039 ns
+Criação de árvore:                      2048242 ns
+Busca em lista:                            3176 ns
+Busca em árvore (BFS):                 78726050 ns
+Busca em árvore (DFS):                    64403 ns
+Criação + busca de lista:                180215 ns
+Criação + busca de árvore (BFS):       80774292 ns
+Criação + busca de árvore (DFS):        2112645 ns
+
+Iteração 15:
+Criação de lista:                        176449 ns
+Criação de árvore:                      1895825 ns
+Busca em lista:                            8426 ns
+Busca em árvore (BFS):                158500155 ns
+Busca em árvore (DFS):                   171488 ns
+Criação + busca de lista:                184875 ns
+Criação + busca de árvore (BFS):      160395980 ns
+Criação + busca de árvore (DFS):        2067313 ns
+
+Iteração 16:
+Criação de lista:                        176310 ns
+Criação de árvore:                      2007381 ns
+Busca em lista:                            8355 ns
+Busca em árvore (BFS):                 72175782 ns
+Busca em árvore (DFS):                   103085 ns
+Criação + busca de lista:                184665 ns
+Criação + busca de árvore (BFS):       74183163 ns
+Criação + busca de árvore (DFS):        2110466 ns
+
+Iteração 17:
+Criação de lista:                        178627 ns
+Criação de árvore:                      2077697 ns
+Busca em lista:                            3630 ns
+Busca em árvore (BFS):                 14168693 ns
+Busca em árvore (DFS):                   170781 ns
+Criação + busca de lista:                182257 ns
+Criação + busca de árvore (BFS):       16246390 ns
+Criação + busca de árvore (DFS):        2248478 ns
+
+Iteração 18:
+Criação de lista:                        186281 ns
+Criação de árvore:                      1954919 ns
+Busca em lista:                           28316 ns
+Busca em árvore (BFS):                 23532265 ns
+Busca em árvore (DFS):                    98345 ns
+Criação + busca de lista:                214597 ns
+Criação + busca de árvore (BFS):       25487184 ns
+Criação + busca de árvore (DFS):        2053264 ns
+
+Iteração 19:
+Criação de lista:                        180400 ns
+Criação de árvore:                      1963971 ns
+Busca em lista:                           18420 ns
+Busca em árvore (BFS):                 55107964 ns
+Busca em árvore (DFS):                   110432 ns
+Criação + busca de lista:                198820 ns
+Criação + busca de árvore (BFS):       57071935 ns
+Criação + busca de árvore (DFS):        2074403 ns
+
+Iteração 20:
+Criação de lista:                        185733 ns
+Criação de árvore:                      2073206 ns
+Busca em lista:                           18511 ns
+Busca em árvore (BFS):                 52191811 ns
+Busca em árvore (DFS):                    64044 ns
+Criação + busca de lista:                204244 ns
+Criação + busca de árvore (BFS):       54265017 ns
+Criação + busca de árvore (DFS):        2137250 ns
+
+Iteração 21:
+Criação de lista:                        176730 ns
+Criação de árvore:                      1977348 ns
+Busca em lista:                           24834 ns
+Busca em árvore (BFS):                135972034 ns
+Busca em árvore (DFS):                   175102 ns
+Criação + busca de lista:                201564 ns
+Criação + busca de árvore (BFS):      137949382 ns
+Criação + busca de árvore (DFS):        2152450 ns
+
+Iteração 22:
+Criação de lista:                        318509 ns
+Criação de árvore:                      2466998 ns
+Busca em lista:                            2169 ns
+Busca em árvore (BFS):                155318331 ns
+Busca em árvore (DFS):                    74166 ns
+Criação + busca de lista:                320678 ns
+Criação + busca de árvore (BFS):      157785329 ns
+Criação + busca de árvore (DFS):        2541164 ns
+
+Iteração 23:
+Criação de lista:                        177887 ns
+Criação de árvore:                      2079302 ns
+Busca em lista:                            1563 ns
+Busca em árvore (BFS):                 31028349 ns
+Busca em árvore (DFS):                    35308 ns
+Criação + busca de lista:                179450 ns
+Criação + busca de árvore (BFS):       33107651 ns
+Criação + busca de árvore (DFS):        2114610 ns
+
+Iteração 24:
+Criação de lista:                        178026 ns
+Criação de árvore:                      2069205 ns
+Busca em lista:                           14574 ns
+Busca em árvore (BFS):                110743918 ns
+Busca em árvore (DFS):                   150432 ns
+Criação + busca de lista:                192600 ns
+Criação + busca de árvore (BFS):      112813123 ns
+Criação + busca de árvore (DFS):        2219637 ns
+
+Iteração 25:
+Criação de lista:                        178778 ns
+Criação de árvore:                      2027481 ns
+Busca em lista:                            5194 ns
+Busca em árvore (BFS):                 20829569 ns
+Busca em árvore (DFS):                   151814 ns
+Criação + busca de lista:                183972 ns
+Criação + busca de árvore (BFS):       22857050 ns
+Criação + busca de árvore (DFS):        2179295 ns
+
+Iteração 26:
+Criação de lista:                        185414 ns
+Criação de árvore:                      2005553 ns
+Busca em lista:                           14393 ns
+Busca em árvore (BFS):                 22308811 ns
+Busca em árvore (DFS):                   128487 ns
+Criação + busca de lista:                199807 ns
+Criação + busca de árvore (BFS):       24314364 ns
+Criação + busca de árvore (DFS):        2134040 ns
+
+Iteração 27:
+Criação de lista:                        180525 ns
+Criação de árvore:                      2005107 ns
+Busca em lista:                           20077 ns
+Busca em árvore (BFS):                 16974071 ns
+Busca em árvore (DFS):                    13503 ns
+Criação + busca de lista:                200602 ns
+Criação + busca de árvore (BFS):       18979178 ns
+Criação + busca de árvore (DFS):        2018610 ns
+
+Iteração 28:
+Criação de lista:                        189789 ns
+Criação de árvore:                      1967725 ns
+Busca em lista:                           31341 ns
+Busca em árvore (BFS):                  8523250 ns
+Busca em árvore (DFS):                   179438 ns
+Criação + busca de lista:                221130 ns
+Criação + busca de árvore (BFS):       10490975 ns
+Criação + busca de árvore (DFS):        2147163 ns
+
+Iteração 29:
+Criação de lista:                        176053 ns
+Criação de árvore:                      1981940 ns
+Busca em lista:                           31537 ns
+Busca em árvore (BFS):                 48251515 ns
+Busca em árvore (DFS):                    21262 ns
+Criação + busca de lista:                207590 ns
+Criação + busca de árvore (BFS):       50233455 ns
+Criação + busca de árvore (DFS):        2003202 ns
+
+Iteração 30:
+Criação de lista:                        191782 ns
+Criação de árvore:                      1997452 ns
+Busca em lista:                           19090 ns
+Busca em árvore (BFS):                  2777148 ns
+Busca em árvore (DFS):                    49768 ns
+Criação + busca de lista:                210872 ns
+Criação + busca de árvore (BFS):        4774600 ns
+Criação + busca de árvore (DFS):        2047220 ns
+
+Iteração 31:
+Criação de lista:                        177042 ns
+Criação de árvore:                      2063672 ns
+Busca em lista:                           20746 ns
+Busca em árvore (BFS):                 11645910 ns
+Busca em árvore (DFS):                    61209 ns
+Criação + busca de lista:                197788 ns
+Criação + busca de árvore (BFS):       13709582 ns
+Criação + busca de árvore (DFS):        2124881 ns
+
+Iteração 32:
+Criação de lista:                        176707 ns
+Criação de árvore:                      2013338 ns
+Busca em lista:                            4815 ns
+Busca em árvore (BFS):                 54547290 ns
+Busca em árvore (DFS):                   127089 ns
+Criação + busca de lista:                181522 ns
+Criação + busca de árvore (BFS):       56560628 ns
+Criação + busca de árvore (DFS):        2140427 ns
+
+Iteração 33:
+Criação de lista:                        179583 ns
+Criação de árvore:                      2009607 ns
+Busca em lista:                           29891 ns
+Busca em árvore (BFS):                 86826036 ns
+Busca em árvore (DFS):                    47998 ns
+Criação + busca de lista:                209474 ns
+Criação + busca de árvore (BFS):       88835643 ns
+Criação + busca de árvore (DFS):        2057605 ns
+
+Iteração 34:
+Criação de lista:                        187565 ns
+Criação de árvore:                      1996888 ns
+Busca em lista:                            7490 ns
+Busca em árvore (BFS):                107190203 ns
+Busca em árvore (DFS):                    44376 ns
+Criação + busca de lista:                195055 ns
+Criação + busca de árvore (BFS):      109187091 ns
+Criação + busca de árvore (DFS):        2041264 ns
+
+Iteração 35:
+Criação de lista:                        179052 ns
+Criação de árvore:                      2064465 ns
+Busca em lista:                           10452 ns
+Busca em árvore (BFS):                  2688205 ns
+Busca em árvore (DFS):                   178539 ns
+Criação + busca de lista:                189504 ns
+Criação + busca de árvore (BFS):        4752670 ns
+Criação + busca de árvore (DFS):        2243004 ns
+
+Iteração 36:
+Criação de lista:                        187372 ns
+Criação de árvore:                      1973328 ns
+Busca em lista:                           24375 ns
+Busca em árvore (BFS):                 28403721 ns
+Busca em árvore (DFS):                   172170 ns
+Criação + busca de lista:                211747 ns
+Criação + busca de árvore (BFS):       30377049 ns
+Criação + busca de árvore (DFS):        2145498 ns
+
+Iteração 37:
+Criação de lista:                        180970 ns
+Criação de árvore:                      2146584 ns
+Busca em lista:                           12313 ns
+Busca em árvore (BFS):                  4644243 ns
+Busca em árvore (DFS):                   169873 ns
+Criação + busca de lista:                193283 ns
+Criação + busca de árvore (BFS):        6790827 ns
+Criação + busca de árvore (DFS):        2316457 ns
+
+Iteração 38:
+Criação de lista:                        180069 ns
+Criação de árvore:                      2047866 ns
+Busca em lista:                           19162 ns
+Busca em árvore (BFS):                  7379772 ns
+Busca em árvore (DFS):                    18421 ns
+Criação + busca de lista:                199231 ns
+Criação + busca de árvore (BFS):        9427638 ns
+Criação + busca de árvore (DFS):        2066287 ns
+
+Iteração 39:
+Criação de lista:                        178541 ns
+Criação de árvore:                      2033505 ns
+Busca em lista:                           14438 ns
+Busca em árvore (BFS):                112145892 ns
+Busca em árvore (DFS):                    93826 ns
+Criação + busca de lista:                192979 ns
+Criação + busca de árvore (BFS):      114179397 ns
+Criação + busca de árvore (DFS):        2127331 ns
+
+Iteração 40:
+Criação de lista:                        177076 ns
+Criação de árvore:                      2127868 ns
+Busca em lista:                           29794 ns
+Busca em árvore (BFS):                 22896426 ns
+Busca em árvore (DFS):                   164356 ns
+Criação + busca de lista:                206870 ns
+Criação + busca de árvore (BFS):       25024294 ns
+Criação + busca de árvore (DFS):        2292224 ns
+
+Iteração 41:
+Criação de lista:                        176583 ns
+Criação de árvore:                      2104037 ns
+Busca em lista:                            1409 ns
+Busca em árvore (BFS):                159209489 ns
+Busca em árvore (DFS):                   140487 ns
+Criação + busca de lista:                177992 ns
+Criação + busca de árvore (BFS):      161313526 ns
+Criação + busca de árvore (DFS):        2244524 ns
+
+Iteração 42:
+Criação de lista:                        183400 ns
+Criação de árvore:                      1916827 ns
+Busca em lista:                           11078 ns
+Busca em árvore (BFS):                159924469 ns
+Busca em árvore (DFS):                    16018 ns
+Criação + busca de lista:                194478 ns
+Criação + busca de árvore (BFS):      161841296 ns
+Criação + busca de árvore (DFS):        1932845 ns
+
+Iteração 43:
+Criação de lista:                        185006 ns
+Criação de árvore:                      1957819 ns
+Busca em lista:                           21793 ns
+Busca em árvore (BFS):                 53955754 ns
+Busca em árvore (DFS):                   166271 ns
+Criação + busca de lista:                206799 ns
+Criação + busca de árvore (BFS):       55913573 ns
+Criação + busca de árvore (DFS):        2124090 ns
+
+Iteração 44:
+Criação de lista:                        177683 ns
+Criação de árvore:                      2063468 ns
+Busca em lista:                           22677 ns
+Busca em árvore (BFS):                 11773859 ns
+Busca em árvore (DFS):                    78944 ns
+Criação + busca de lista:                200360 ns
+Criação + busca de árvore (BFS):       13837327 ns
+Criação + busca de árvore (DFS):        2142412 ns
+
+Iteração 45:
+Criação de lista:                        185847 ns
+Criação de árvore:                      1992166 ns
+Busca em lista:                           28698 ns
+Busca em árvore (BFS):                 14860271 ns
+Busca em árvore (DFS):                   155123 ns
+Criação + busca de lista:                214545 ns
+Criação + busca de árvore (BFS):       16852437 ns
+Criação + busca de árvore (DFS):        2147289 ns
+
+Iteração 46:
+Criação de lista:                        176974 ns
+Criação de árvore:                      1994191 ns
+Busca em lista:                           35913 ns
+Busca em árvore (BFS):                   833556 ns
+Busca em árvore (DFS):                    63385 ns
+Criação + busca de lista:                212887 ns
+Criação + busca de árvore (BFS):        2827747 ns
+Criação + busca de árvore (DFS):        2057576 ns
+
+Iteração 47:
+Criação de lista:                        193272 ns
+Criação de árvore:                      2049329 ns
+Busca em lista:                           36019 ns
+Busca em árvore (BFS):                  2246309 ns
+Busca em árvore (DFS):                   156525 ns
+Criação + busca de lista:                229291 ns
+Criação + busca de árvore (BFS):        4295638 ns
+Criação + busca de �rvore (DFS):        2205854 ns
+
+Iteração 48:
+Criação de lista:                        190264 ns
+Criação de árvore:                      1983617 ns
+Busca em lista:                           17128 ns
+Busca em árvore (BFS):                 72176419 ns
+Busca em árvore (DFS):                    29452 ns
+Criação + busca de lista:                207392 ns
+Criação + busca de árvore (BFS):       74160036 ns
+Criação + busca de árvore (DFS):        2013069 ns
+
+Iteração 49:
+Criação de lista:                        178716 ns
+Criação de árvore:                      2176634 ns
+Busca em lista:                             410 ns
+Busca em árvore (BFS):                146289732 ns
+Busca em árvore (DFS):                   156084 ns
+Criação + busca de lista:                179126 ns
+Criação + busca de árvore (BFS):      148466366 ns
+Criação + busca de árvore (DFS):        2332718 ns
+
+Iteração 50:
+Criação de lista:                        177437 ns
+Criação de árvore:                      2014298 ns
+Busca em lista:                           12949 ns
+Busca em árvore (BFS):                 79948822 ns
+Busca em árvore (DFS):                   128968 ns
+Criação + busca de lista:                190386 ns
+Criação + busca de árvore (BFS):       81963120 ns
+Criação + busca de árvore (DFS):        2143266 ns
+
+Iteração 51:
+Criação de lista:                        181208 ns
+Criação de árvore:                      2072778 ns
+Busca em lista:                           17825 ns
+Busca em árvore (BFS):                132716095 ns
+Busca em árvore (DFS):                   167993 ns
+Criação + busca de lista:                199033 ns
+Criação + busca de árvore (BFS):      134788873 ns
+Criação + busca de árvore (DFS):        2240771 ns
+
+Iteração 52:
+Criação de lista:                        189532 ns
+Criação de árvore:                      2090675 ns
+Busca em lista:                           29866 ns
+Busca em árvore (BFS):                  9646500 ns
+Busca em árvore (DFS):                    68808 ns
+Criação + busca de lista:                219398 ns
+Criação + busca de árvore (BFS):       11737175 ns
+Criação + busca de árvore (DFS):        2159483 ns
+
+Iteração 53:
+Criação de lista:                        176929 ns
+Criação de árvore:                      1963320 ns
+Busca em lista:                           22810 ns
+Busca em árvore (BFS):                113137784 ns
+Busca em árvore (DFS):                    35324 ns
+Criação + busca de lista:                199739 ns
+Criação + busca de árvore (BFS):      115101104 ns
+Criação + busca de árvore (DFS):        1998644 ns
+
+Iteração 54:
+Criação de lista:                        181216 ns
+Criação de árvore:                      1984720 ns
+Busca em lista:                            1330 ns
+Busca em árvore (BFS):                161600035 ns
+Busca em árvore (DFS):                    42781 ns
+Criação + busca de lista:                182546 ns
+Criação + busca de árvore (BFS):      163584755 ns
+Criação + busca de árvore (DFS):        2027501 ns
+
+Iteração 55:
+Criação de lista:                        177368 ns
+Criação de árvore:                      2037274 ns
+Busca em lista:                             610 ns
+Busca em árvore (BFS):                   232814 ns
+Busca em árvore (DFS):                   172324 ns
+Criação + busca de lista:                177978 ns
+Criação + busca de árvore (BFS):        2270088 ns
+Criação + busca de árvore (DFS):        2209598 ns
+
+Iteração 56:
+Criação de lista:                        176709 ns
+Criação de árvore:                      2033562 ns
+Busca em lista:                           17728 ns
+Busca em árvore (BFS):                146745864 ns
+Busca em árvore (DFS):                   174868 ns
+Criação + busca de lista:                194437 ns
+Criação + busca de árvore (BFS):      148779426 ns
+Criação + busca de árvore (DFS):        2208430 ns
+
+Iteração 57:
+Criação de lista:                        178217 ns
+Criação de árvore:                      2090429 ns
+Busca em lista:                           31253 ns
+Busca em árvore (BFS):                  6939438 ns
+Busca em árvore (DFS):                     7062 ns
+Criação + busca de lista:                209470 ns
+Criação + busca de árvore (BFS):        9029867 ns
+Criação + busca de árvore (DFS):        2097491 ns
+
+Iteração 58:
+Criação de lista:                        175726 ns
+Criação de árvore:                      2029179 ns
+Busca em lista:                           22720 ns
+Busca em árvore (BFS):                 87971855 ns
+Busca em árvore (DFS):                   104102 ns
+Criação + busca de lista:                198446 ns
+Criação + busca de árvore (BFS):       90001034 ns
+Criação + busca de árvore (DFS):        2133281 ns
+
+Iteração 59:
+Criação de lista:                        178188 ns
+Criação de árvore:                      2217461 ns
+Busca em lista:                            4894 ns
+Busca em árvore (BFS):                145903424 ns
+Busca em árvore (DFS):                    58354 ns
+Criação + busca de lista:                183082 ns
+Criação + busca de árvore (BFS):      148120885 ns
+Criação + busca de árvore (DFS):        2275815 ns
+
+Iteração 60:
+Criação de lista:                        176873 ns
+Criação de árvore:                      2017691 ns
+Busca em lista:                           23758 ns
+Busca em árvore (BFS):                 83397752 ns
+Busca em árvore (DFS):                   126550 ns
+Criação + busca de lista:                200631 ns
+Criação + busca de árvore (BFS):       85415443 ns
+Criação + busca de árvore (DFS):        2144241 ns
+
+Iteração 61:
+Criação de lista:                        179775 ns
+Criação de árvore:                      2000251 ns
+Busca em lista:                            2454 ns
+Busca em árvore (BFS):                 59737206 ns
+Busca em árvore (DFS):                   100505 ns
+Criação + busca de lista:                182229 ns
+Criação + busca de árvore (BFS):       61737457 ns
+Criação + busca de árvore (DFS):        2100756 ns
+
+Iteração 62:
+Criação de lista:                        183671 ns
+Criação de árvore:                      2013859 ns
+Busca em lista:                            2386 ns
+Busca em árvore (BFS):                  5597182 ns
+Busca em árvore (DFS):                    13386 ns
+Criação + busca de lista:                186057 ns
+Criação + busca de árvore (BFS):        7611041 ns
+Criação + busca de árvore (DFS):        2027245 ns
+
+Iteração 63:
+Criação de lista:                        177419 ns
+Criação de árvore:                      1883073 ns
+Busca em lista:                           17248 ns
+Busca em árvore (BFS):                159362306 ns
+Busca em árvore (DFS):                     6126 ns
+Criação + busca de lista:                194667 ns
+Criação + busca de árvore (BFS):      161245379 ns
+Criação + busca de árvore (DFS):        1889199 ns
+
+Iteração 64:
+Criação de lista:                        178070 ns
+Criação de árvore:                      2186972 ns
+Busca em lista:                           35862 ns
+Busca em árvore (BFS):                  1322222 ns
+Busca em árvore (DFS):                   101186 ns
+Criação + busca de lista:                213932 ns
+Criação + busca de árvore (BFS):        3509194 ns
+Criação + busca de árvore (DFS):        2288158 ns
+
+Iteração 65:
+Criação de lista:                        177472 ns
+Criação de árvore:                      2060670 ns
+Busca em lista:                           23354 ns
+Busca em árvore (BFS):                  7000373 ns
+Busca em árvore (DFS):                    23181 ns
+Criação + busca de lista:                200826 ns
+Criação + busca de árvore (BFS):        9061043 ns
+Criação + busca de árvore (DFS):        2083851 ns
+
+Iteração 66:
+Criação de lista:                        177507 ns
+Criação de árvore:                      1996621 ns
+Busca em lista:                            9238 ns
+Busca em árvore (BFS):                113573031 ns
+Busca em árvore (DFS):                     1983 ns
+Criação + busca de lista:                186745 ns
+Criação + busca de árvore (BFS):      115569652 ns
+Criação + busca de árvore (DFS):        1998604 ns
+
+Iteração 67:
+Criação de lista:                        176967 ns
+Criação de árvore:                      2074575 ns
+Busca em lista:                            3900 ns
+Busca em árvore (BFS):                 71939528 ns
+Busca em árvore (DFS):                   109313 ns
+Criação + busca de lista:                180867 ns
+Criação + busca de árvore (BFS):       74014103 ns
+Criação + busca de árvore (DFS):        2183888 ns
+
+Iteração 68:
+Criação de lista:                        177099 ns
+Criação de árvore:                      2079539 ns
+Busca em lista:                           30114 ns
+Busca em árvore (BFS):                 18511091 ns
+Busca em árvore (DFS):                   132539 ns
+Criação + busca de lista:                207213 ns
+Criação + busca de árvore (BFS):       20590630 ns
+Criação + busca de árvore (DFS):        2212078 ns
+
+Iteração 69:
+Criação de lista:                        192116 ns
+Criação de árvore:                      2004921 ns
+Busca em lista:                           13100 ns
+Busca em árvore (BFS):                 66768553 ns
+Busca em árvore (DFS):                   142630 ns
+Criação + busca de lista:                205216 ns
+Criação + busca de árvore (BFS):       68773474 ns
+Criação + busca de árvore (DFS):        2147551 ns
+
+Iteração 70:
+Criação de lista:                        177461 ns
+Criação de árvore:                      2027450 ns
+Busca em lista:                           29418 ns
+Busca em árvore (BFS):                   359682 ns
+Busca em árvore (DFS):                    87475 ns
+Criação + busca de lista:                206879 ns
+Criação + busca de árvore (BFS):        2387132 ns
+Criação + busca de árvore (DFS):        2114925 ns
+
+Iteração 71:
+Criação de lista:                        185998 ns
+Criação de árvore:                      2011606 ns
+Busca em lista:                             137 ns
+Busca em árvore (BFS):                166118494 ns
+Busca em árvore (DFS):                    29827 ns
+Criação + busca de lista:                186135 ns
+Criação + busca de árvore (BFS):      168130100 ns
+Criação + busca de árvore (DFS):        2041433 ns
+
+Iteração 72:
+Criação de lista:                        181060 ns
+Criação de árvore:                      1981253 ns
+Busca em lista:                            5179 ns
+Busca em árvore (BFS):                 17526032 ns
+Busca em árvore (DFS):                     2673 ns
+Criação + busca de lista:                186239 ns
+Criação + busca de árvore (BFS):       19507285 ns
+Criação + busca de árvore (DFS):        1983926 ns
+
+Iteração 73:
+Criação de lista:                        176554 ns
+Criação de árvore:                      1977451 ns
+Busca em lista:                            1310 ns
+Busca em árvore (BFS):                101902464 ns
+Busca em árvore (DFS):                   107111 ns
+Criação + busca de lista:                177864 ns
+Criação + busca de árvore (BFS):      103879915 ns
+Criação + busca de árvore (DFS):        2084562 ns
+
+Iteração 74:
+Criação de lista:                        182460 ns
+Criação de árvore:                      1907629 ns
+Busca em lista:                           26000 ns
+Busca em árvore (BFS):                  3846245 ns
+Busca em árvore (DFS):                    78197 ns
+Criação + busca de lista:                208460 ns
+Criação + busca de árvore (BFS):        5753874 ns
+Criação + busca de árvore (DFS):        1985826 ns
+
+Iteração 75:
+Criação de lista:                        178748 ns
+Criação de árvore:                      1897409 ns
+Busca em lista:                            6615 ns
+Busca em árvore (BFS):                 32858156 ns
+Busca em árvore (DFS):                   132970 ns
+Criação + busca de lista:                185363 ns
+Criação + busca de árvore (BFS):       34755565 ns
+Criação + busca de árvore (DFS):        2030379 ns
+
+Iteração 76:
+Criação de lista:                        177269 ns
+Criação de árvore:                      2006864 ns
+Busca em lista:                           26329 ns
+Busca em árvore (BFS):                  7063199 ns
+Busca em árvore (DFS):                   143068 ns
+Criação + busca de lista:                203598 ns
+Criação + busca de árvore (BFS):        9070063 ns
+Criação + busca de árvore (DFS):        2149932 ns
+
+Iteração 77:
+Criação de lista:                        180071 ns
+Criação de árvore:                      1942695 ns
+Busca em lista:                           13099 ns
+Busca em árvore (BFS):                 74690216 ns
+Busca em árvore (DFS):                    12271 ns
+Criação + busca de lista:                193170 ns
+Criação + busca de árvore (BFS):       76632911 ns
+Criação + busca de árvore (DFS):        1954966 ns
+
+Iteração 78:
+Criação de lista:                        178662 ns
+Criação de árvore:                      1936385 ns
+Busca em lista:                            7830 ns
+Busca em árvore (BFS):                131572353 ns
+Busca em árvore (DFS):                    15599 ns
+Criação + busca de lista:                186492 ns
+Criação + busca de árvore (BFS):      133508738 ns
+Criação + busca de árvore (DFS):        1951984 ns
+
+Iteração 79:
+Criação de lista:                        178391 ns
+Criação de árvore:                      2069331 ns
+Busca em lista:                           30086 ns
+Busca em árvore (BFS):                100324344 ns
+Busca em árvore (DFS):                   100906 ns
+Criação + busca de lista:                208477 ns
+Criação + busca de árvore (BFS):      102393675 ns
+Criação + busca de árvore (DFS):        2170237 ns
+
+Iteração 80:
+Criação de lista:                        176656 ns
+Criação de árvore:                      1967973 ns
+Busca em lista:                           19275 ns
+Busca em árvore (BFS):                 29679534 ns
+Busca em árvore (DFS):                   168275 ns
+Criação + busca de lista:                195931 ns
+Criação + busca de árvore (BFS):       31647507 ns
+Criação + busca de árvore (DFS):        2136248 ns
+
+Iteração 81:
+Criação de lista:                        177922 ns
+Criação de árvore:                      1985226 ns
+Busca em lista:                           25830 ns
+Busca em árvore (BFS):                   188921 ns
+Busca em árvore (DFS):                    59044 ns
+Criação + busca de lista:                203752 ns
+Criação + busca de árvore (BFS):        2174147 ns
+Criação + busca de árvore (DFS):        2044270 ns
+
+Iteração 82:
+Criação de lista:                        315155 ns
+Criação de árvore:                      2067092 ns
+Busca em lista:                           19366 ns
+Busca em árvore (BFS):                 19699121 ns
+Busca em árvore (DFS):                    43087 ns
+Criação + busca de lista:                334521 ns
+Criação + busca de árvore (BFS):       21766213 ns
+Criação + busca de árvore (DFS):        2110179 ns
+
+Iteração 83:
+Criação de lista:                        317427 ns
+Criação de árvore:                      2224120 ns
+Busca em lista:                           17222 ns
+Busca em árvore (BFS):                  8634232 ns
+Busca em árvore (DFS):                    60407 ns
+Criação + busca de lista:                334649 ns
+Criação + busca de árvore (BFS):       10858352 ns
+Criação + busca de árvore (DFS):        2284527 ns
+
+Iteração 84:
+Criação de lista:                        179031 ns
+Criação de árvore:                      1988411 ns
+Busca em lista:                            3184 ns
+Busca em árvore (BFS):                 53155665 ns
+Busca em árvore (DFS):                    92644 ns
+Criação + busca de lista:                182215 ns
+Criação + busca de árvore (BFS):       55144076 ns
+Criação + busca de árvore (DFS):        2081055 ns
+
+Iteração 85:
+Criação de lista:                        431382 ns
+Criação de árvore:                      2524514 ns
+Busca em lista:                           12158 ns
+Busca em árvore (BFS):                 55169053 ns
+Busca em árvore (DFS):                    41921 ns
+Criação + busca de lista:                443540 ns
+Criação + busca de árvore (BFS):       57693567 ns
+Criação + busca de árvore (DFS):        2566435 ns
+
+Iteração 86:
+Criação de lista:                        317020 ns
+Criação de árvore:                      2237443 ns
+Busca em lista:                           25807 ns
+Busca em árvore (BFS):                124408045 ns
+Busca em árvore (DFS):                    92851 ns
+Criação + busca de lista:                342827 ns
+Criação + busca de árvore (BFS):      126645488 ns
+Criação + busca de árvore (DFS):        2330294 ns
+
+Iteração 87:
+Criação de lista:                        326774 ns
+Criação de árvore:                      2305987 ns
+Busca em lista:                           17323 ns
+Busca em árvore (BFS):                110094546 ns
+Busca em árvore (DFS):                   195419 ns
+Criação + busca de lista:                344097 ns
+Criação + busca de árvore (BFS):      112400533 ns
+Criação + busca de árvore (DFS):        2501406 ns
+
+Iteração 88:
+Criação de lista:                        310526 ns
+Criação de árvore:                      2272876 ns
+Busca em lista:                           30705 ns
+Busca em árvore (BFS):                 81953626 ns
+Busca em árvore (DFS):                    44337 ns
+Criação + busca de lista:                341231 ns
+Criação + busca de árvore (BFS):       84226502 ns
+Criação + busca de árvore (DFS):        2317213 ns
+
+Iteração 89:
+Criação de lista:                        310791 ns
+Criação de árvore:                      2458457 ns
+Busca em lista:                           30656 ns
+Busca em árvore (BFS):                  2521020 ns
+Busca em árvore (DFS):                   166701 ns
+Criação + busca de lista:                341447 ns
+Criação + busca de árvore (BFS):        4979477 ns
+Criação + busca de árvore (DFS):        2625158 ns
+
+Iteração 90:
+Criação de lista:                        176422 ns
+Criação de árvore:                      1950332 ns
+Busca em lista:                           33187 ns
+Busca em árvore (BFS):                     9173 ns
+Busca em árvore (DFS):                   158812 ns
+Criação + busca de lista:                209609 ns
+Criação + busca de árvore (BFS):        1959505 ns
+Criação + busca de árvore (DFS):        2109144 ns
+
+Iteração 91:
+Criação de lista:                        177726 ns
+Criação de árvore:                      1990459 ns
+Busca em lista:                           30931 ns
+Busca em árvore (BFS):                120880076 ns
+Busca em árvore (DFS):                    74654 ns
+Criação + busca de lista:                208657 ns
+Criação + busca de árvore (BFS):      122870535 ns
+Criação + busca de árvore (DFS):        2065113 ns
+
+Iteração 92:
+Criação de lista:                        317163 ns
+Criação de árvore:                      2251745 ns
+Busca em lista:                           33485 ns
+Busca em árvore (BFS):                 16164344 ns
+Busca em árvore (DFS):                   136096 ns
+Criação + busca de lista:                350648 ns
+Criação + busca de árvore (BFS):       18416089 ns
+Criação + busca de árvore (DFS):        2387841 ns
+
+Iteração 93:
+Criação de lista:                        177806 ns
+Criação de árvore:                      1912531 ns
+Busca em lista:                           25343 ns
+Busca em árvore (BFS):                 83738972 ns
+Busca em árvore (DFS):                    88307 ns
+Criação + busca de lista:                203149 ns
+Criação + busca de árvore (BFS):       85651503 ns
+Criação + busca de árvore (DFS):        2000838 ns
+
+Iteração 94:
+Criação de lista:                        321679 ns
+Criação de árvore:                      2490744 ns
+Busca em lista:                             259 ns
+Busca em árvore (BFS):                 37323960 ns
+Busca em árvore (DFS):                     2315 ns
+Criação + busca de lista:                321938 ns
+Criação + busca de árvore (BFS):       39814704 ns
+Criação + busca de árvore (DFS):        2493059 ns
+
+Iteração 95:
+Criação de lista:                        329971 ns
+Criação de árvore:                      2247197 ns
+Busca em lista:                           11875 ns
+Busca em árvore (BFS):                 92046260 ns
+Busca em árvore (DFS):                   136204 ns
+Criação + busca de lista:                341846 ns
+Criação + busca de árvore (BFS):       94293457 ns
+Criação + busca de árvore (DFS):        2383401 ns
+
+Iteração 96:
+Criação de lista:                        331276 ns
+Criação de árvore:                      2430485 ns
+Busca em lista:                           37628 ns
+Busca em árvore (BFS):                 43168874 ns
+Busca em árvore (DFS):                   163430 ns
+Criação + busca de lista:                368904 ns
+Criação + busca de árvore (BFS):       45599359 ns
+Criação + busca de árvore (DFS):        2593915 ns
+
+Iteração 97:
+Criação de lista:                        327149 ns
+Criação de árvore:                      2303381 ns
+Busca em lista:                           16344 ns
+Busca em árvore (BFS):                 91148132 ns
+Busca em árvore (DFS):                   118805 ns
+Criação + busca de lista:                343493 ns
+Criação + busca de árvore (BFS):       93451513 ns
+Criação + busca de árvore (DFS):        2422186 ns
+
+Iteração 98:
+Criação de lista:                        327698 ns
+Criação de árvore:                      2256465 ns
+Busca em lista:                           30987 ns
+Busca em árvore (BFS):                 15136371 ns
+Busca em árvore (DFS):                   142181 ns
+Criação + busca de lista:                358685 ns
+Criação + busca de árvore (BFS):       17392836 ns
+Criação + busca de árvore (DFS):        2398646 ns
+
+Iteração 99:
+Criação de lista:                        177671 ns
+Criação de árvore:                      1987593 ns
+Busca em lista:                           13488 ns
+Busca em árvore (BFS):                144203463 ns
+Busca em árvore (DFS):                    68189 ns
+Criação + busca de lista:                191159 ns
+Criação + busca de árvore (BFS):      146191056 ns
+Criação + busca de árvore (DFS):        2055782 ns
+
+Iteração 100:
+Criação de lista:                        327123 ns
+Criação de árvore:                      2183546 ns
+Busca em lista:                           22972 ns
+Busca em árvore (BFS):                125989648 ns
+Busca em árvore (DFS):                   167009 ns
+Criação + busca de lista:                350095 ns
+Criação + busca de árvore (BFS):      128173194 ns
+Criação + busca de árvore (DFS):        2350555 ns

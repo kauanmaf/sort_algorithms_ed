@@ -28,4 +28,7 @@ void swapElements(Node<T>*, Node<T>*);
 template <typename T>
 Node<T>* searchNodebyValue(Node<T>** , T);
 
+template <typename T>
+void insertFront(Node<T>**, T);
+
 #include "doubleList.tpp"

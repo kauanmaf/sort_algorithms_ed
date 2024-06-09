@@ -145,3 +145,27 @@ Node<T>* searchNodebyValue(Node<T>** head, T value){
     cout << "Valor nao encontrado" << endl;
     return nullptr; 
 }
+
+// Função para inserir um nó no início da lista
+template <typename T>
+void insertFront(Node<T>** head, T payload)
+{
+    // Criando o nó
+    Node<T>* newNode = createNode(payload);
+    
+    // Se a lista não está vazia...
+    if (*head != nullptr)
+    {
+        // O anterior ao antigo primeiro passa a ser o novo
+        (*head) -> ptrPrev = newNode;
+        // O seguinte ao novo nó é o antigo primeiro
+        newNode -> ptrNext = (*head);
+        // O novo nó passa a ser o primeiro
+        (*head) = newNode;
+        
+        return;
+    }
+    
+    // Se ela está vazia, o novo nó passa a ser o primeiro
+    (*head) = newNode;
+}

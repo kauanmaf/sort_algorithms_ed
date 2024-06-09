@@ -167,15 +167,6 @@ NodeTree<T>* lesserLeaf(NodeTree<T>* ptrStartingNode)
 template <typename T>
 NodeTree<T>* dfsTraversal(NodeTree<T>* ptrStartingNodeTree, T data)
 {
-    // // Se o valor do nó for nulo, acabou a árvore
-    // if (ptrStartingNodeTree == nullptr) return nullptr;
-    // // Se for igual ao valor procurado, retorna ele
-    // if (ptrStartingNodeTree -> payload == data) return ptrStartingNodeTree;
-    // // Se for menor que o procurado, procura na árvore da esquerda
-    // else if (data < ptrStartingNodeTree -> payload) return dfsTraversal(ptrStartingNodeTree -> ptrLeft, data);
-    // // Se não, procura na da direita
-    // else return dfsTraversal(ptrStartingNodeTree -> ptrRight, data);
-
     // Se o valor do nó for nulo, acabou a árvore
     if (ptrStartingNodeTree == nullptr) return nullptr;
     // Se for igual ao valor procurado, retorna ele
